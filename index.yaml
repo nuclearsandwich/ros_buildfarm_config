@@ -13,28 +13,6 @@ distributions:
       default: indigo/release-build.yaml
     source_builds:
       default: indigo/source-build.yaml
-#  jade:
-#    doc_builds:
-#      default: jade/doc-build.yaml
-#      released-packages-without-doc-job: jade/doc-released-build.yaml
-#    notification_emails:
-#    - ros-buildfarm-testfarm@googlegroups.com
-#    release_builds:
-#      arm: jade/release-armhf-build.yaml
-#      default: jade/release-build.yaml
-#    source_builds:
-#      default: jade/source-build.yaml
-  kinetic:
-    doc_builds:
-      default: kinetic/doc-build.yaml
-      released-packages-without-doc-job: kinetic/doc-released-build.yaml
-    notification_emails:
-    - ros-buildfarm-kinetic@googlegroups.com
-    release_builds:
-      arm: kinetic/release-armhf-build.yaml
-      default: kinetic/release-build.yaml
-    source_builds:
-      default: kinetic/source-build.yaml
 doc_builds:
   independent-packages: doc-independent-build.yaml
 jenkins_url: http://52.53.179.39/
