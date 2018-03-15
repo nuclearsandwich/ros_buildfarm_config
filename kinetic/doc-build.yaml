@@ -10,11 +10,6 @@ notifications:
   emails:
   - ros-buildfarm-testfarm@googlegroups.com
   maintainers: false
-package_whitelist:
-  - catkin # control git scm doc job
-  # below are hg scm doc jobs to test for https://github.com/ros-infrastructure/ros_buildfarm/issues/502
-  - mobility_base_ros
-  - dbw_mkz_ros
 repositories:
   keys:
   - |
