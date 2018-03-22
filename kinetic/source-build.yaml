@@ -9,6 +9,8 @@ notifications:
   emails:
   - ros-buildfarm-testfarm@googlegroups.com
   maintainers: false
+package_whitelist:
+  - catkin
 repositories:
   urls:
     - http://18.144.15.0/ubuntu/testing
