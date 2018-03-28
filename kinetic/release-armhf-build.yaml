@@ -51,8 +51,8 @@ repositories:
     =E8ot
     -----END PGP PUBLIC KEY BLOCK-----
   urls:
-  - http://34.205.73.161/ubuntu/building
-target_repository: http://34.205.73.161/ubuntu/building
+  - http://52.90.52.37/ubuntu/building
+target_repository: http://52.90.52.37/ubuntu/building
 targets:
   ubuntu:
     xenial:
