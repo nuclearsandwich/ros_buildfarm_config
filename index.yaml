@@ -2,17 +2,17 @@
 # ROS buildfarm index file
 ---
 distributions:
-  indigo:
-    doc_builds:
-      default: indigo/doc-build.yaml
-      released-packages-without-doc-job: indigo/doc-released-build.yaml
-    notification_emails:
-    - ros-buildfarm-testfarm@googlegroups.com
-    release_builds:
+# indigo:
+#   doc_builds:
+#     default: indigo/doc-build.yaml
+#     released-packages-without-doc-job: indigo/doc-released-build.yaml
+#   notification_emails:
+#   - ros-buildfarm-testfarm@googlegroups.com
+#   release_builds:
 #      arm: indigo/release-armhf-build.yaml
-      default: indigo/release-build.yaml
-    source_builds:
-      default: indigo/source-build.yaml
+#     default: indigo/release-build.yaml
+#   source_builds:
+#     default: indigo/source-build.yaml
 #  jade:
 #    doc_builds:
 #      default: jade/doc-build.yaml
@@ -31,18 +31,18 @@ distributions:
     notification_emails:
     - ros-buildfarm-kinetic@googlegroups.com
     release_builds:
-      arm: kinetic/release-armhf-build.yaml
+#     arm: kinetic/release-armhf-build.yaml
       default: kinetic/release-build.yaml
     source_builds:
       default: kinetic/source-build.yaml
 doc_builds:
   independent-packages: doc-independent-build.yaml
-jenkins_url: http://54.174.157.156
+jenkins_url: http://54.89.142.125
 notification_emails:
 - ros-buildfarm-testfarm@googlegroups.com
 prerequisites:
   debian_repositories:
-  - http://52.90.52.37/ubuntu/building
+  - http://34.203.218.160/ubuntu/building
   debian_repository_keys:
   - |
     -----BEGIN PGP PUBLIC KEY BLOCK-----
@@ -78,8 +78,8 @@ prerequisites:
 rosdistro_index_url: https://raw.githubusercontent.com/ros/rosdistro/master/index.yaml
 status_page_repositories:
   default:
-  - http://52.90.52.37/ubuntu/building
-  - http://52.90.52.37/ubuntu/testing
-  - http://52.90.52.37/ubuntu/main
+  - http://34.203.218.160/ubuntu/building
+  - http://34.203.218.160/ubuntu/testing
+  - http://34.203.218.160/ubuntu/main
 type: buildfarm
 version: 1
