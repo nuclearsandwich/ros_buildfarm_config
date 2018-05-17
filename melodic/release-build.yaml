@@ -50,8 +50,6 @@ repositories:
 target_repository: http://35.173.127.150/ubuntu/building
 targets:
   ubuntu:
-    artful:
-      amd64:
     bionic:
       amd64:
 type: release-build
