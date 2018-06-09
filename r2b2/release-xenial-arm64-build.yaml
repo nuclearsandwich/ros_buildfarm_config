@@ -78,9 +78,9 @@ repositories:
     =Vgio
     -----END PGP PUBLIC KEY BLOCK-----
   urls:
-  - http://repo.ros2.org/ubuntu/building
+  - http://34.230.81.4/ubuntu/building
   - http://repositories.ros.org/ubuntu/main
-target_repository: http://repo.ros2.org/ubuntu/building
+target_repository: http://34.230.81.4/ubuntu/building
 targets:
   ubuntu:
     xenial:

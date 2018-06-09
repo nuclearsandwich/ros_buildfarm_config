@@ -8,7 +8,7 @@ jenkins_source_job_priority: 79
 jenkins_source_job_timeout: 30
 notifications:
   emails:
-  - steven+build.ros2.org@openrobotics.org
+  - steven+54.175.38.128@openrobotics.org
   maintainers: false
 sync:
   package_count: 1
@@ -77,9 +77,9 @@ repositories:
     =Vgio
     -----END PGP PUBLIC KEY BLOCK-----
   urls:
-  - http://repo.ros2.org/ubuntu/building
+  - http://34.230.81.4/ubuntu/building
   - http://repositories.ros.org/ubuntu/main
-target_repository: http://repo.ros2.org/ubuntu/building
+target_repository: http://34.230.81.4/ubuntu/building
 targets:
   ubuntu:
     xenial:
