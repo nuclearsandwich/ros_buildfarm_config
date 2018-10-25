@@ -46,8 +46,8 @@ repositories:
     =E8ot
     -----END PGP PUBLIC KEY BLOCK-----
   urls:
-  - http://54.144.70.212/ubuntu/building
-target_repository: http://54.144.70.212/ubuntu/building
+  - http://52.87.236.131/ubuntu/building
+target_repository: http://52.87.236.131/ubuntu/building
 targets:
   ubuntu:
     trusty:

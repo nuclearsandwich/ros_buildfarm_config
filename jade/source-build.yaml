@@ -11,7 +11,7 @@ notifications:
   maintainers: false
 repositories:
   urls:
-  - http://54.144.70.212/ubuntu/testing
+  - http://52.87.236.131/ubuntu/testing
   keys:
   - |
     -----BEGIN PGP PUBLIC KEY BLOCK-----
