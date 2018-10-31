@@ -2,61 +2,16 @@
 # ROS buildfarm release-build file
 ---
 abi_incompatibility_assumed: true
-jenkins_binary_job_priority: 95
-jenkins_binary_job_timeout: 600
-jenkins_source_job_priority: 80
+jenkins_binary_job_priority: 75
+jenkins_binary_job_timeout: 120
+jenkins_source_job_priority: 65
 jenkins_source_job_timeout: 30
 notifications:
   emails:
-  - ros-buildfarm-testfarm@googlegroups.com
+  - steven@osrfoundation.org
   maintainers: false
-package_blacklist:
-  - ardrone_autonomy
-  - avt_vimba_camera
-  - baxter_ikfast_left_arm_plugin
-  - baxter_ikfast_right_arm_plugin
-  - bride
-  - darknet
-  - epos_library
-  - eus_nlopt
-  - gazebo_ros
-  - graspit
-  - imagesift
-  - jaco_sdk
-  - jinteractiveworld
-  - jsk_pcl_ros
-  - kdl_typekit
-  - libfovis
-  - libntcan
-  - libpointmatcher
-  - libsegwayrmp
-  - libvimba
-  - mapviz
-  - micros_rtt
-  - multires_image
-  - nao_meshes
-  - naoqi_driver
-  - nerian_sp1
-  - octovis
-  - oculus_sdk
-  - openhrp3
-  - pepper_meshes
-  - pointgrey_camera_driver
-  - pr2_motor_diagnostic_tool
-  - prosilica_gige_sdk
-  - riskrrt
-  - robot_calibration
-  - rosjava_bootstrap
-  - rospeex_core
-  - rtabmap_ros
-  - sr_external_dependencies
-  - ueye_cam
-  - uwsim
-  - uwsim_osgocean
-  - uwsim_osgworks
-  - visp
 sync:
-  package_count: 750
+  package_count: 400
 repositories:
   keys:
   - |
@@ -91,12 +46,12 @@ repositories:
     =E8ot
     -----END PGP PUBLIC KEY BLOCK-----
   urls:
-  - http://52.87.236.131/ubuntu/building
-target_repository: http://52.87.236.131/ubuntu/building
+  - http://34.207.161.88/ubuntu/building
+target_repository: http://34.207.161.88/ubuntu/building
 targets:
   ubuntu:
-    trusty:
-      armhf:
+    bionic:
+      amd64:
 type: release-build
 upload_credential_id: 1e7d4696-7fd4-4bc6-8c87-ebc7b6ce16e5
 version: 2

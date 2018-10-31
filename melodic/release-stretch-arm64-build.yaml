@@ -2,21 +2,18 @@
 # ROS buildfarm release-build file
 ---
 abi_incompatibility_assumed: true
-jenkins_binary_job_priority: 94
-jenkins_binary_job_timeout: 600
-jenkins_source_job_priority: 79
+jenkins_binary_job_priority: 95
+jenkins_binary_job_timeout: 720
+jenkins_source_job_priority: 65
 jenkins_source_job_timeout: 30
 notifications:
   emails:
-  - ros-buildfarm-testfarm@googlegroups.com
+  - steven@osrfoundation.org
   maintainers: false
 package_blacklist:
-  - ardrone_autonomy
-  - darknet
-  - octovis
-  - ueye
+  - rospilot
 sync:
-  package_count: 1
+  package_count: 400
 repositories:
   keys:
   - |
@@ -51,15 +48,11 @@ repositories:
     =E8ot
     -----END PGP PUBLIC KEY BLOCK-----
   urls:
-  - http://52.87.236.131/ubuntu/building
-target_repository: http://52.87.236.131/ubuntu/building
+  - http://34.207.161.88/ubuntu/building
+target_repository: http://34.207.161.88/ubuntu/building
 targets:
-  ubuntu:
-    xenial:
-      armhf:
-      arm64:
   debian:
-    jessie:
+    stretch:
       arm64:
 type: release-build
 upload_credential_id: 1e7d4696-7fd4-4bc6-8c87-ebc7b6ce16e5

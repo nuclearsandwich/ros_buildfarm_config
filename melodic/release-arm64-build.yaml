@@ -1,15 +1,18 @@
 %YAML 1.1
-# ROS buildfarm doc-build file
+# ROS buildfarm release-build file
 ---
-canonical_base_url: http://52.87.236.131/docs
-documentation_type: rosdoc_lite
-jenkins_job_priority: 91
-jenkins_job_timeout: 120
+abi_incompatibility_assumed: true
+jenkins_binary_job_priority: 95
+jenkins_binary_job_timeout: 720
+jenkins_source_job_priority: 65
+jenkins_source_job_timeout: 30
 notifications:
-  committers: false
   emails:
-  - ros-buildfarm-testfarm@googlegroups.com
+  - steven@osrfoundation.org
   maintainers: false
+package_blacklist:
+sync:
+  package_count: 400
 repositories:
   keys:
   - |
@@ -44,15 +47,12 @@ repositories:
     =E8ot
     -----END PGP PUBLIC KEY BLOCK-----
   urls:
-  - http://52.87.236.131/ubuntu/testing
+  - http://34.207.161.88/ubuntu/building
+target_repository: http://34.207.161.88/ubuntu/building
 targets:
   ubuntu:
-    trusty:
-      amd64:
-type: doc-build
+    bionic:
+      arm64:
+type: release-build
 upload_credential_id: 1e7d4696-7fd4-4bc6-8c87-ebc7b6ce16e5
-upload_host: repo
-upload_root: /var/repos/docs
-# The `upload_user` defaults from source and can be tuned as needed.
-# upload_user: jenkins-agent
 version: 2
