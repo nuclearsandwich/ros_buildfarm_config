@@ -19,7 +19,7 @@ distributions:
       #ds: melodic/source-stretch-build.yaml
 doc_builds:
   independent-packages: doc-independent-build.yaml
-jenkins_url: http://54.205.121.122
+jenkins_url: http://54.91.98.143
 notification_emails:
 - steven@openrobotics.org
 prerequisites:
