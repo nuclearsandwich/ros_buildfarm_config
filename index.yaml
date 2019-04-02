@@ -19,12 +19,12 @@ distributions:
       #ds: melodic/source-stretch-build.yaml
 doc_builds:
   independent-packages: doc-independent-build.yaml
-jenkins_url: http://54.91.98.143
+jenkins_url: http://3.95.188.53
 notification_emails:
 - steven@openrobotics.org
 prerequisites:
   debian_repositories:
-  - http://34.207.161.88/ubuntu/building
+  - http://3.93.212.75/ubuntu/building
   debian_repository_keys:
   - |
     -----BEGIN PGP PUBLIC KEY BLOCK-----
@@ -60,8 +60,8 @@ prerequisites:
 rosdistro_index_url: https://raw.githubusercontent.com/nuclearsandwich/rosdistro/melodic-canary/index.yaml
 status_page_repositories:
   default:
-  - http://34.207.161.88/ubuntu/building
-  - http://34.207.161.88/ubuntu/testing
-  - http://34.207.161.88/ubuntu/main
+  - http://3.93.212.75/ubuntu/building
+  - http://3.93.212.75/ubuntu/testing
+  - http://3.93.212.75/ubuntu/main
 type: buildfarm
 version: 1
