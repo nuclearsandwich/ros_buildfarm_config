@@ -11,7 +11,7 @@ notifications:
   committers: true
   compiler_warnings: true
   emails:
-  - mikael+build.ros2.org@openrobotics.org
+  - mikael+18.208.181.104@openrobotics.org
   - ros2-buildfarm-bouncy@googlegroups.com
   maintainers: true
 repositories:
@@ -79,7 +79,7 @@ repositories:
     =Vgio
     -----END PGP PUBLIC KEY BLOCK-----
   urls:
-  - http://repo.ros2.org/ubuntu/testing
+  - http://54.174.116.192/ubuntu/testing
   - http://repositories.ros.org/ubuntu/main
 targets:
   ubuntu:
