@@ -9,8 +9,8 @@ jenkins_job_label: gpubuildagent
 jenkins_job_timeout: 120
 jenkins_pull_request_job_priority: 47
 notifications:
-  committers: true
-  compiler_warnings: true
+  committers: false
+  compiler_warnings: false
   emails:
   - steven+build.ros2.org@openrobotics.org
   - ros2-buildfarm-crystal@googlegroups.com
@@ -80,7 +80,7 @@ repositories:
     =Vgio
     -----END PGP PUBLIC KEY BLOCK-----
   urls:
-  - http://repo.ros2.org/ubuntu/testing
+  - http://54.174.116.192/ubuntu/testing
   - http://repositories.ros.org/ubuntu/main
 repository_whitelist:
 - gazebo_ros_pkgs
