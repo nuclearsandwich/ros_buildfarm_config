@@ -12,7 +12,7 @@ jenkins_source_job_priority: 76
 jenkins_source_job_timeout: 30
 notifications:
   emails:
-  - steven+18.208.181.104@openrobotics.org
+  - steven+3.82.156.204@openrobotics.org
   - ros2-buildfarm-dashing@googlegroups.com
   maintainers: true
 sync:
@@ -82,9 +82,9 @@ repositories:
     =Vgio
     -----END PGP PUBLIC KEY BLOCK-----
   urls:
-  - http://54.174.116.192/ubuntu/building
+  - http://52.91.18.183/ubuntu/building
   - http://repositories.ros.org/ubuntu/main
-target_repository: http://54.174.116.192/ubuntu/building
+target_repository: http://52.91.18.183/ubuntu/building
 targets:
   ubuntu:
     bionic:

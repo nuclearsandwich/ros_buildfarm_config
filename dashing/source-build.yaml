@@ -11,7 +11,7 @@ notifications:
   committers: true
   compiler_warnings: true
   emails:
-  - steven+18.208.181.104@openrobotics.org
+  - steven+3.82.156.204@openrobotics.org
   - ros2-buildfarm-dashing@googlegroups.com
   maintainers: true
 repositories:
@@ -79,7 +79,7 @@ repositories:
     =Vgio
     -----END PGP PUBLIC KEY BLOCK-----
   urls:
-  - http://54.174.116.192/ubuntu/testing
+  - http://52.91.18.183/ubuntu/testing
   - http://repositories.ros.org/ubuntu/main
 repository_blacklist:
 - ros_workspace
