@@ -6,7 +6,7 @@ distributions:
     ci_builds: {}
     doc_builds: {}
     notification_emails:
-      - mikael+3.82.156.204@openrobotics.org
+      - mikael+54.174.3.45@openrobotics.org
       - ros2-buildfarm-bouncy@googlegroups.com
     release_builds:
       default: bouncy/release-build.yaml
@@ -19,7 +19,7 @@ distributions:
       overlay: crystal/ci-overlay.yaml
     doc_builds: {}
     notification_emails:
-      - steven+3.82.156.204@openrobotics.org
+      - steven+54.174.3.45@openrobotics.org
       - ros2-buildfarm-crystal@googlegroups.com
     release_builds:
       default: crystal/release-build.yaml
@@ -33,19 +33,19 @@ distributions:
       overlay: dashing/ci-overlay.yaml
     doc_builds: {}
     notification_emails:
-      - steven+3.82.156.204@openrobotics.org
+      - steven+54.174.3.45@openrobotics.org
       - ros2-buildfarm-dashing@googlegroups.com
     release_builds:
       default: dashing/release-build.yaml
       ubv8: dashing/release-bionic-arm64-build.yaml
     source_builds:
       default: dashing/source-build.yaml
-jenkins_url: http://3.82.156.204
+jenkins_url: http://54.174.3.45
 notification_emails:
-  - steven+3.82.156.204@openrobotics.org
+  - steven+54.174.3.45@openrobotics.org
 prerequisites:
   debian_repositories:
-  - http://52.91.18.183/ubuntu/building
+  - http://3.84.24.212/ubuntu/building
   - http://repositories.ros.org/ubuntu/main
   debian_repository_keys:
   - |
@@ -113,8 +113,8 @@ prerequisites:
 rosdistro_index_url: https://raw.githubusercontent.com/ros/rosdistro/master/index-v4.yaml
 status_page_repositories:
   default:
-    - http://52.91.18.183/ubuntu/building
-    - http://52.91.18.183/ubuntu/testing
-    - http://52.91.18.183/ubuntu/main
+    - http://3.84.24.212/ubuntu/building
+    - http://3.84.24.212/ubuntu/testing
+    - http://3.84.24.212/ubuntu/main
 type: buildfarm
 version: 1
