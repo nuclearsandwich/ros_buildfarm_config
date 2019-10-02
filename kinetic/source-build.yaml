@@ -15,7 +15,7 @@ package_whitelist:
   - catkin
 repositories:
   urls:
-  - http://3.84.218.67/ubuntu/testing
+  - http://18.212.175.247/ubuntu/testing
   keys:
   - |
     -----BEGIN PGP PUBLIC KEY BLOCK-----
