@@ -353,8 +353,8 @@ repositories:
     =4Ofr
     -----END PGP PUBLIC KEY BLOCK-----
   urls:
-  - http://18.212.175.247/ubuntu/building
-target_repository: http://18.212.175.247/ubuntu/building
+  - http://3.92.193.35/ubuntu/building
+target_repository: http://3.92.193.35/ubuntu/building
 targets:
   ubuntu:
     # EOLed

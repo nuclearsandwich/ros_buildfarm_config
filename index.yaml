@@ -76,14 +76,14 @@ distributions:
 doc_builds:
   independent-packages: doc-independent-build.yaml
 #  rosindex: doc-rosindex.yaml
-jenkins_url: http://18.212.69.164
+jenkins_url: http://18.206.154.49
 notification_emails:
 - ros-buildfarm@googlegroups.com
-- steven+18.212.69.164@openrobotics.org
+- steven+18.206.154.49@openrobotics.org
 - tfoote+buildfarm@osrfoundation.org
 prerequisites:
   debian_repositories:
-  - http://18.212.175.247/ubuntu/building
+  - http://3.92.193.35/ubuntu/building
   debian_repository_keys:
   - |
     -----BEGIN PGP PUBLIC KEY BLOCK-----
@@ -119,8 +119,8 @@ prerequisites:
 rosdistro_index_url: https://raw.githubusercontent.com/ros/rosdistro/master/index.yaml
 status_page_repositories:
   default:
-  - http://18.212.175.247/ubuntu/building
-  - http://18.212.175.247/ubuntu/testing
-  - http://18.212.175.247/ubuntu/main
+  - http://3.92.193.35/ubuntu/building
+  - http://3.92.193.35/ubuntu/testing
+  - http://3.92.193.35/ubuntu/main
 type: buildfarm
 version: 1
