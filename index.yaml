@@ -8,7 +8,7 @@ distributions:
       overlay: crystal/ci-overlay.yaml
     doc_builds: {}
     notification_emails:
-      - steven+18.233.155.78@openrobotics.org
+      - steven+3.83.10.11@openrobotics.org
       - ros2-buildfarm-crystal@googlegroups.com
     release_builds:
       default: crystal/release-build.yaml
@@ -22,16 +22,16 @@ distributions:
       overlay: dashing/ci-overlay.yaml
     doc_builds: {}
     notification_emails:
-      - steven+18.233.155.78@openrobotics.org
+      - steven+3.83.10.11@openrobotics.org
       - ros2-buildfarm-dashing@googlegroups.com
     release_builds:
       default: dashing/release-build.yaml
       ubv8: dashing/release-bionic-arm64-build.yaml
     source_builds:
       default: dashing/source-build.yaml
-jenkins_url: http://18.233.155.78
+jenkins_url: http://3.83.10.11
 notification_emails:
-  - steven+18.233.155.78@openrobotics.org
+  - steven+3.83.10.11@openrobotics.org
 prerequisites:
   debian_repositories:
   - http://54.174.255.242/ubuntu/building
