@@ -34,7 +34,7 @@ notification_emails:
   - steven+3.83.10.11@openrobotics.org
 prerequisites:
   debian_repositories:
-  - http://54.174.255.242/ubuntu/building
+  - http://3.91.96.129/ubuntu/building
   - http://repositories.ros.org/ubuntu/main
   debian_repository_keys:
   - |
@@ -102,8 +102,8 @@ prerequisites:
 rosdistro_index_url: https://raw.githubusercontent.com/ros/rosdistro/master/index-v4.yaml
 status_page_repositories:
   default:
-    - http://54.174.255.242/ubuntu/building
-    - http://54.174.255.242/ubuntu/testing
-    - http://54.174.255.242/ubuntu/main
+    - http://3.91.96.129/ubuntu/building
+    - http://3.91.96.129/ubuntu/testing
+    - http://3.91.96.129/ubuntu/main
 type: buildfarm
 version: 1
