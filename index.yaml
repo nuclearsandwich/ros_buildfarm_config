@@ -99,7 +99,7 @@ prerequisites:
     qYE=
     =Vgio
     -----END PGP PUBLIC KEY BLOCK-----
-rosdistro_index_url: https://raw.githubusercontent.com/nuclearsandwich/rosdistro/fmilibrary_vendor_testing/index-v4.yaml
+rosdistro_index_url: https://raw.githubusercontent.com/ros/rosdistro/master/index-v4.yaml
 status_page_repositories:
   default:
     - http://54.174.255.242/ubuntu/building
