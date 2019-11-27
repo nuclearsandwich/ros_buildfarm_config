@@ -5,7 +5,7 @@ build_environment_variables:
   RTI_NC_LICENSE_ACCEPTED: 'yes'
 build_tool: colcon
 jenkins_commit_job_priority: 57
-jenkins_job_label: gpubuildagent
+jenkins_job_label: build_gpu_agent
 jenkins_job_timeout: 120
 jenkins_pull_request_job_priority: 47
 notifications:
@@ -80,7 +80,7 @@ repositories:
     =Vgio
     -----END PGP PUBLIC KEY BLOCK-----
   urls:
-  - http://3.84.24.212/ubuntu/testing
+  - http://54.174.255.242/ubuntu/testing
   - http://repositories.ros.org/ubuntu/main
 repository_whitelist:
 - gazebo_ros_pkgs
