@@ -120,7 +120,7 @@ show_plots:
       data_type: csv
       selection_flag: INCLUDE_BY_COLUMN
       selection_value: 0
-      url: /job/Eci__nightly-performance_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_results_%name%_Array1k.png
+      url: /job/Eci__nightly-performance_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_results_%name%.png
   - title: Max Resident Set Size
     y_axis_label: Megabytes
     master_csv_name: plot-8724667824625016735.csv
@@ -131,5 +131,5 @@ show_plots:
       data_type: csv
       selection_flag: INCLUDE_BY_COLUMN
       selection_value: 1
-      url: /job/Eci__nightly-performance_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_results_%name%_Array1k.png
+      url: /job/Eci__nightly-performance_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_results_%name%.png
 version: 1
