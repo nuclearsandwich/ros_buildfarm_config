@@ -30,7 +30,7 @@ jenkins_job_timeout: 60
 jenkins_job_upstream_triggers:
 - nightly-extra-rmw-release
 repos_files:
-- https://gist.githubusercontent.com/ahcorde/fa47eaf980af3aaec071571983d56a6e/raw/91f6f73dfc249e1f36d01b7a85974ff54d2a3e78/ros2.repos
+- https://gist.githubusercontent.com/ahcorde/fa47eaf980af3aaec071571983d56a6e/raw/bef6e11c8440da0abd3bcfa51b922f34c9489eb5/ros2.repos
 repositories:
   keys:
   - |
@@ -116,7 +116,7 @@ show_plots:
     style: line
     y_axis_exclude_zero: False
     data_series:
-    - data_file: ws/test_results/buildfarm_perf_tests/performance_test_results_*_Array1k.csv
+    - data_file: ws/test_results/buildfarm_perf_tests/performance_test_results_*.csv
       data_type: csv
       selection_flag: INCLUDE_BY_COLUMN
       selection_value: 0
@@ -127,9 +127,21 @@ show_plots:
     style: line
     y_axis_exclude_zero: True
     data_series:
-    - data_file: ws/test_results/buildfarm_perf_tests/performance_test_results_*_Array1k.csv
+    - data_file: ws/test_results/buildfarm_perf_tests/performance_test_results_*.csv
       data_type: csv
       selection_flag: INCLUDE_BY_COLUMN
       selection_value: 1
       url: /job/Eci__nightly-performance_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_results_%name%.png
+  - title: Lost packages
+    y_axis_label: Number
+    master_csv_name: plot-8724667824625016731.csv
+    style: stackedBar
+    y_axis_exclude_zero: True
+    data_series:
+    - data_file: ws/test_results/buildfarm_perf_tests/performance_test_results_*.csv
+      data_type: csv
+      selection_flag: INCLUDE_BY_COLUMN
+      selection_value: 4
+      url: /job/Eci__nightly-performance_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_results_%name%_histogram.png
+
 version: 1
