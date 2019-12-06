@@ -135,7 +135,7 @@ show_plots:
   - title: Lost packages
     y_axis_label: Number
     master_csv_name: plot-8724667824625016731.csv
-    style: stackedBar
+    style: line
     y_axis_exclude_zero: True
     data_series:
     - data_file: ws/test_results/buildfarm_perf_tests/performance_test_results_*.csv
