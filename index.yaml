@@ -19,6 +19,9 @@ distributions:
   dashing:
     ci_builds:
       nightly: dashing/ci-nightly.yaml
+      nightly-performance-prerequisites: dashing/ci-nightly-performance-prerequisites.yaml
+      nightly-performance: dashing/ci-nightly-performance.yaml
+      nightly-extra-rmw-release: dashing/ci-nightly-extra-rmw-release.yaml
       overlay: dashing/ci-overlay.yaml
     doc_builds: {}
     notification_emails:
