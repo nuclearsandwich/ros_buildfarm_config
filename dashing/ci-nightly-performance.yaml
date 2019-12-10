@@ -120,7 +120,7 @@ show_plots:
       data_type: csv
       selection_flag: INCLUDE_BY_COLUMN
       selection_value: 0
-      url: /job/Eci__nightly-performance_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_results_%name%.png
+      url: /job/Dci__nightly-performance_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_results_%name%.png
   - title: Max Resident Set Size
     y_axis_label: Megabytes
     master_csv_name: plot-8724667824625016735.csv
@@ -131,7 +131,7 @@ show_plots:
       data_type: csv
       selection_flag: INCLUDE_BY_COLUMN
       selection_value: 1
-      url: /job/Eci__nightly-performance_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_results_%name%.png
+      url: /job/Dci__nightly-performance_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_results_%name%.png
   - title: Received packets
     y_axis_label: Number
     master_csv_name: plot-8724667824625016791.csv
@@ -142,7 +142,7 @@ show_plots:
       data_type: csv
       selection_flag: INCLUDE_BY_COLUMN
       selection_value: 2
-      url: /job/Eci__nightly-performance_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_results_%name%_histogram.png
+      url: /job/Dci__nightly-performance_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_results_%name%_histogram.png
   - title: Sent packets
     y_axis_label: Number
     master_csv_name: plot-8724667824625016761.csv
@@ -153,7 +153,7 @@ show_plots:
       data_type: csv
       selection_flag: INCLUDE_BY_COLUMN
       selection_value: 3
-      url: /job/Eci__nightly-performance_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_results_%name%_histogram.png
+      url: /job/Dci__nightly-performance_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_results_%name%_histogram.png
   - title: Lost packets
     y_axis_label: Number
     master_csv_name: plot-8724667824625016731.csv
@@ -164,7 +164,7 @@ show_plots:
       data_type: csv
       selection_flag: INCLUDE_BY_COLUMN
       selection_value: 4
-      url: /job/Eci__nightly-performance_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_results_%name%_histogram.png
+      url: /job/Dci__nightly-performance_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_results_%name%_histogram.png
   - title: CPU usage (%)
     y_axis_label: Number
     master_csv_name: plot-8724667824425016731.csv
@@ -175,6 +175,6 @@ show_plots:
       data_type: csv
       selection_flag: INCLUDE_BY_COLUMN
       selection_value: 5
-      url: /job/Eci__nightly-performance_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_results_%name%_cpu_usage.png
+      url: /job/Dci__nightly-performance_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_results_%name%_cpu_usage.png
 
 version: 1
