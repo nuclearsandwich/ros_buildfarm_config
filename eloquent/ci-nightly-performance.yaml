@@ -132,7 +132,7 @@ show_plots:
       selection_flag: INCLUDE_BY_COLUMN
       selection_value: 1
       url: /job/Eci__nightly-performance_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_results_%name%.png
-  - title: Received packages
+  - title: Received packets
     y_axis_label: Number
     master_csv_name: plot-8724667824625016791.csv
     style: line
@@ -143,7 +143,7 @@ show_plots:
       selection_flag: INCLUDE_BY_COLUMN
       selection_value: 2
       url: /job/Eci__nightly-performance_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_results_%name%_histogram.png
-  - title: Sent packages
+  - title: Sent packets
     y_axis_label: Number
     master_csv_name: plot-8724667824625016761.csv
     style: line
@@ -154,7 +154,7 @@ show_plots:
       selection_flag: INCLUDE_BY_COLUMN
       selection_value: 3
       url: /job/Eci__nightly-performance_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_results_%name%_histogram.png
-  - title: Lost packages
+  - title: Lost packets
     y_axis_label: Number
     master_csv_name: plot-8724667824625016731.csv
     style: line
