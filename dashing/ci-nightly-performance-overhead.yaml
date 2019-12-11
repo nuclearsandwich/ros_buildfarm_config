@@ -30,7 +30,7 @@ jenkins_job_timeout: 60
 jenkins_job_upstream_triggers:
 - nightly-extra-rmw-release
 repos_files:
-- https://github.com/ahcorde/buildfarm_perf_tests/blob/ahcorde/simple_pub_sub/tools/ros2_dependencies.repos
+- https://raw.githubusercontent.com/ahcorde/buildfarm_perf_tests/ahcorde/simple_pub_sub/tools/ros2_dependencies.repos
 repositories:
   keys:
   - |
