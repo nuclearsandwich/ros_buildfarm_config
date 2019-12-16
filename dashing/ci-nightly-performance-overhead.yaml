@@ -111,9 +111,9 @@ show_images:
   - ws/test_results/buildfarm_perf_tests/overhead_test_results_*.png
 show_plots:
   Performance Test Results:
-  - title: Performance Test Average Round-Trip Time
+  - title: Average Round-Trip Time
     y_axis_label: Milliseconds
-    master_csv_name: plot-6509911700247260954.csv
+    master_csv_name: plot-5383730536992146777.csv
     style: line
     y_axis_exclude_zero: False
     data_series:
@@ -121,32 +121,10 @@ show_plots:
       data_type: csv
       selection_flag: INCLUDE_BY_COLUMN
       selection_value: 0
-      url: /job/Dci__nightly-performance-overhead_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_results_%name%.png
-  - title: Performance Test Max Resident Set Size
+      url: /job/Dci__nightly-performance_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_results_%name%.png
+  - title: Max Resident Set Size
     y_axis_label: Megabytes
-    master_csv_name: plot-8724667824625016735.csv
-    style: line
-    y_axis_exclude_zero: True
-    data_series:
-    - data_file: ws/test_results/buildfarm_perf_tests/performance_test_results_*.csv
-      data_type: csv
-      selection_flag: INCLUDE_BY_COLUMN
-      selection_value: 1
-      url: /job/Dci__nightly-performance-overhead_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_results_%name%.png
-  - title: Performance Test Received packets
-    y_axis_label: Number
-    master_csv_name: plot-8724667824625016791.csv
-    style: line
-    y_axis_exclude_zero: True
-    data_series:
-    - data_file: ws/test_results/buildfarm_perf_tests/performance_test_results_*.csv
-      data_type: csv
-      selection_flag: INCLUDE_BY_COLUMN
-      selection_value: 2
-      url: /job/Dci__nightly-performance-overhead_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_results_%name%_histogram.png
-  - title: Performance Test Sent packets
-    y_axis_label: Number
-    master_csv_name: plot-8724667824625016761.csv
+    master_csv_name: plot-9351526321217097619.csv
     style: line
     y_axis_exclude_zero: True
     data_series:
@@ -154,10 +132,10 @@ show_plots:
       data_type: csv
       selection_flag: INCLUDE_BY_COLUMN
       selection_value: 3
-      url: /job/Dci__nightly-performance-overhead_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_results_%name%_histogram.png
-  - title: Performance Test Lost packets
-    y_axis_label: Number
-    master_csv_name: plot-8724667824625016731.csv
+      url: /job/Dci__nightly-performance_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_results_%name%.png
+  - title: Received packets per second
+    y_axis_label: Packets per second
+    master_csv_name: plot-2973118048941445403.csv
     style: line
     y_axis_exclude_zero: True
     data_series:
@@ -165,10 +143,10 @@ show_plots:
       data_type: csv
       selection_flag: INCLUDE_BY_COLUMN
       selection_value: 4
-      url: /job/Dci__nightly-performance-overhead_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_results_%name%_histogram.png
-  - title: Performance Test CPU usage (%)
-    y_axis_label: Number
-    master_csv_name: plot-8724667824425016731.csv
+      url: /job/Dci__nightly-performance_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_results_%name%_histogram.png
+  - title: Sent packets per second
+    y_axis_label: Packets per second
+    master_csv_name: plot-2819868998711663078.csv
     style: line
     y_axis_exclude_zero: True
     data_series:
@@ -176,94 +154,162 @@ show_plots:
       data_type: csv
       selection_flag: INCLUDE_BY_COLUMN
       selection_value: 5
-      url: /job/Dci__nightly-performance-overhead_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_results_%name%_cpu_usage.png
-  - title: Simple Pub/Sub Virtual memory (%)
-    y_axis_label: Number
-    master_csv_name: plot-8724667825425016731.csv
+      url: /job/Dci__nightly-performance_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_results_%name%_histogram.png
+  - title: Lost packets
+    y_axis_label: Total Count
+    master_csv_name: plot-8814043121736352120.csv
     style: line
     y_axis_exclude_zero: True
     data_series:
-    - data_file: ws/test_results/buildfarm_perf_tests/overhead_test_results_*.csv
+    - data_file: ws/test_results/buildfarm_perf_tests/performance_test_results_*.csv
       data_type: csv
       selection_flag: INCLUDE_BY_COLUMN
-      selection_value: 0
-      url: /job/Dci__nightly-performance-overhead_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/overhead_test_results_%name%_virtual_memory.png
-  - title: Simple Pub/Sub CPU usage (%)
-    y_axis_label: Number
-    master_csv_name: plot-8724667823425016731.csv
+      selection_value: 6
+      url: /job/Dci__nightly-performance_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_results_%name%_histogram.png
+  - title: CPU Usage
+    y_axis_label: Utilization (%)
+    master_csv_name: plot-6196102268607563242.csv
     style: line
     y_axis_exclude_zero: True
     data_series:
-    - data_file: ws/test_results/buildfarm_perf_tests/overhead_test_results_*.csv
+    - data_file: ws/test_results/buildfarm_perf_tests/performance_test_results_*.csv
       data_type: csv
       selection_flag: INCLUDE_BY_COLUMN
-      selection_value: 1
-      url: /job/Dci__nightly-performance-overhead_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/overhead_test_results_%name%_cpu_usage.png
-  - title: Simple Pub/Sub Disk usage (Kb)
-    y_axis_label: Number
-    master_csv_name: plot-8724667826425016731.csv
+      selection_value: 7
+      url: /job/Dci__nightly-performance_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_results_%name%_cpu_usage.png
+  - title: Virtual Memory Publisher
+    y_axis_label: Mb
+    master_csv_name: plot-9468391163998201982.csv
     style: line
     y_axis_exclude_zero: True
     data_series:
-    - data_file: ws/test_results/buildfarm_perf_tests/overhead_test_results_*.csv
-      data_type: csv
-      selection_flag: INCLUDE_BY_COLUMN
-      selection_value: 2
-      url: /job/Dci__nightly-performance-overhead_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/overhead_test_results_%name%_disk_usage.png
-  - title: Simple Pub/Sub Free Disk (Kb)
-    y_axis_label: Number
-    master_csv_name: plot-8724667827425016731.csv
-    style: line
-    y_axis_exclude_zero: True
-    data_series:
-    - data_file: ws/test_results/buildfarm_perf_tests/overhead_test_results_*.csv
-      data_type: csv
-      selection_flag: INCLUDE_BY_COLUMN
-      selection_value: 3
-      url: /job/Dci__nightly-performance-overhead_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/overhead_test_results_%name%_free_disk.png
-  - title: Spinning node Virtual memory (%)
-    y_axis_label: Number
-    master_csv_name: plot-8724667825425016331.csv
-    style: line
-    y_axis_exclude_zero: True
-    data_series:
-    - data_file: ws/test_results/buildfarm_perf_tests/overhead_node_test_results_*.csv
-      data_type: csv
-      selection_flag: INCLUDE_BY_COLUMN
-      selection_value: 0
-      url: /job/Dci__nightly-performance-overhead_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/overhead_node_test_results_%name%_virtual_memory.png
-  - title: Spinning node CPU usage (%)
-    y_axis_label: Number
-    master_csv_name: plot-8724667823425016231.csv
-    style: line
-    y_axis_exclude_zero: True
-    data_series:
-    - data_file: ws/test_results/buildfarm_perf_tests/overhead_node_test_results_*.csv
-      data_type: csv
-      selection_flag: INCLUDE_BY_COLUMN
-      selection_value: 1
-      url: /job/Dci__nightly-performance-overhead_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/overhead_node_test_results_%name%_cpu_usage.png
-  - title: Spinning node Disk usage (Kb)
-    y_axis_label: Number
-    master_csv_name: plot-8724667826425016131.csv
-    style: line
-    y_axis_exclude_zero: True
-    data_series:
-    - data_file: ws/test_results/buildfarm_perf_tests/overhead_node_test_results_*.csv
+    - data_file: ws/test_results/buildfarm_perf_tests/overhead_test_results_*_pub.csv
       data_type: csv
       selection_flag: INCLUDE_BY_COLUMN
       selection_value: 2
-      url: /job/Dci__nightly-performance-overhead_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/overhead_node_test_results_%name%_disk_usage.png
-  - title: Spinning node Free Disk (Kb)
-    y_axis_label: Number
-    master_csv_name: plot-8724667827425016031.csv
+      url: /job/Dci__nightly-performance_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/overhead_test_results_%name%_pub_virtual_memory.png
+  - title: Virtual Memory Subscriber
+    y_axis_label: Mb
+    master_csv_name: plot-2999963187292673715.csv
+    style: line
+    y_axis_exclude_zero: True
+    data_series:
+    - data_file: ws/test_results/buildfarm_perf_tests/overhead_test_results_*_sub.csv
+      data_type: csv
+      selection_flag: INCLUDE_BY_COLUMN
+      selection_value: 2
+      url: /job/Dci__nightly-performance_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/overhead_test_results_%name%_sub_virtual_memory.png
+  - title: CPU Usage Publisher
+    y_axis_label: Utilization (%)
+    master_csv_name: plot-7334251122353272290.csv
+    style: line
+    y_axis_exclude_zero: True
+    data_series:
+    - data_file: ws/test_results/buildfarm_perf_tests/overhead_test_results_*_pub.csv
+      data_type: csv
+      selection_flag: INCLUDE_BY_COLUMN
+      selection_value: 5
+      url: /job/Dci__nightly-performance_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/overhead_test_results_%name%_pub_cpu_usage.png
+  - title: CPU Usage Subscriber
+    y_axis_label: Utilization (%)
+    master_csv_name: plot-9320264734963316225.csv
+    style: line
+    y_axis_exclude_zero: True
+    data_series:
+    - data_file: ws/test_results/buildfarm_perf_tests/overhead_test_results_*_sub.csv
+      data_type: csv
+      selection_flag: INCLUDE_BY_COLUMN
+      selection_value: 5
+      url: /job/Dci__nightly-performance_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/overhead_test_results_%name%_sub_cpu_usage.png
+  - title: Physical Memory Publisher
+    y_axis_label: Mb
+    master_csv_name: plot-6110705052430373038.csv
+    style: line
+    y_axis_exclude_zero: True
+    data_series:
+    - data_file: ws/test_results/buildfarm_perf_tests/overhead_test_results_*_pub.csv
+      data_type: csv
+      selection_flag: INCLUDE_BY_COLUMN
+      selection_value: 8
+      url: /job/Dci__nightly-performance_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/overhead_test_results_%name%_pub_physical_memory.png
+  - title: Physical Memory Subscriber
+    y_axis_label: Mb
+    master_csv_name: plot-6992542010156017001.csv
+    style: line
+    y_axis_exclude_zero: True
+    data_series:
+    - data_file: ws/test_results/buildfarm_perf_tests/overhead_test_results_*_sub.csv
+      data_type: csv
+      selection_flag: INCLUDE_BY_COLUMN
+      selection_value: 8
+      url: /job/Dci__nightly-performance_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/overhead_test_results_%name%_sub_physical_memory.png
+  - title: Resident Anonymous Memory Publisher
+    y_axis_label: Mb
+    master_csv_name: plot-7227708251266038523.csv
+    style: line
+    y_axis_exclude_zero: True
+    data_series:
+    - data_file: ws/test_results/buildfarm_perf_tests/overhead_test_results_*_pub.csv
+      data_type: csv
+      selection_flag: INCLUDE_BY_COLUMN
+      selection_value: 11
+      url: /job/Dci__nightly-performance_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/overhead_test_results_%name%_pub_resident_anonymous_memory.png
+  - title: Resident Anonymous Memory Subscriber
+    y_axis_label: Mb
+    master_csv_name: plot-2712135199607299602.csv
+    style: line
+    y_axis_exclude_zero: True
+    data_series:
+    - data_file: ws/test_results/buildfarm_perf_tests/overhead_test_results_*_sub.csv
+      data_type: csv
+      selection_flag: INCLUDE_BY_COLUMN
+      selection_value: 11
+      url: /job/Dci__nightly-performance_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/overhead_test_results_%name%_sub_resident_anonymous_memory.png
+  - title: Virtual Memory Publisher
+    y_axis_label: Mb
+    master_csv_name: plot-2825890930649960320.csv
     style: line
     y_axis_exclude_zero: True
     data_series:
     - data_file: ws/test_results/buildfarm_perf_tests/overhead_node_test_results_*.csv
       data_type: csv
       selection_flag: INCLUDE_BY_COLUMN
-      selection_value: 3
-      url: /job/Dci__nightly-performance-overhead_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/overhead_node_test_results_%name%_free_disk.png
+      selection_value: 2
+      url: /job/Dci__nightly-performance_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/overhead_node_test_results_%name%_virtual_memory.png
+  - title: Cpu Usage Publisher
+    y_axis_label: Utilization (%)
+    master_csv_name: plot-8619035331321837524.csv
+    style: line
+    y_axis_exclude_zero: True
+    data_series:
+    - data_file: ws/test_results/buildfarm_perf_tests/overhead_node_test_results_*.csv
+      data_type: csv
+      selection_flag: INCLUDE_BY_COLUMN
+      selection_value: 5
+      url: /job/Dci__nightly-performance_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/overhead_node_test_results_%name%_cpu_usage.png
+  - title: Physical Memory Subscriber
+    y_axis_label: Mb
+    master_csv_name: plot-8540700059039721960.csv
+    style: line
+    y_axis_exclude_zero: True
+    data_series:
+    - data_file: ws/test_results/buildfarm_perf_tests/overhead_node_test_results_*.csv
+      data_type: csv
+      selection_flag: INCLUDE_BY_COLUMN
+      selection_value: 8
+      url: /job/Dci__nightly-performance_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/overhead_node_test_results_%name%_physical_memory.png
+  - title: Resident Anonymous Memory Subscriber
+    y_axis_label: Mb
+    master_csv_name: plot-5231506973007749250.csv
+    style: line
+    y_axis_exclude_zero: True
+    data_series:
+    - data_file: ws/test_results/buildfarm_perf_tests/overhead_node_test_results_*.csv
+      data_type: csv
+      selection_flag: INCLUDE_BY_COLUMN
+      selection_value: 11
+      url: /job/Dci__nightly-performance_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/overhead_node_test_results_%name%_resident_anonymous_memory.png
+
+
 
 version: 1
