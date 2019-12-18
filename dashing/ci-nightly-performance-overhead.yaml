@@ -244,7 +244,7 @@ show_plots:
       selection_flag: INCLUDE_BY_COLUMN
       selection_value: 8
       url: /job/Dci__nightly-performance-overhead_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/overhead_test_results_%name%_sub_physical_memory.png
-  - title: Simple Sub Resident Anonymous Memory Publisher
+  - title: Simple Pub Resident Anonymous Memory Publisher
     y_axis_label: Mb
     master_csv_name: plot-7227708251266038523.csv
     style: line
@@ -255,7 +255,7 @@ show_plots:
       selection_flag: INCLUDE_BY_COLUMN
       selection_value: 11
       url: /job/Dci__nightly-performance-overhead_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/overhead_test_results_%name%_pub_resident_anonymous_memory.png
-  - title: Simple Pub/Sub Resident Anonymous Memory Subscriber
+  - title: Simple Sub Resident Anonymous Memory Subscriber
     y_axis_label: Mb
     master_csv_name: plot-2712135199607299602.csv
     style: line
