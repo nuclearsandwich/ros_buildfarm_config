@@ -111,11 +111,11 @@ show_images:
   - ws/test_results/buildfarm_perf_tests/overhead_test_results_*.png
   - ws/test_results/buildfarm_perf_tests/overhead_node_test_results_*.png
 show_plots:
-  Publisher rmw_fastrtps_cpp Test Results:
+  Pub/Sub rmw_fastrtps_cpp Test Results:
   - title: Simple Pub rmw_fastrtps_cpp Virtual Memory Publisher
     y_axis_label: Mb
     numBuilds: 50
-    master_csv_name: plot-6198167836952181367.csv
+    master_csv_name: plot-6549760702246717736.csv
     style: line
     y_axis_exclude_zero: True
     data_series:
@@ -124,11 +124,43 @@ show_plots:
       selection_flag: INCLUDE_BY_COLUMN
       selection_value: 2
       url: /job/Dci__nightly-performance-overhead_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/overhead_test_results_%name%_pub_virtual_memory.png
-  Subscriber rmw_fastrtps_cpp Test Results:
+  - title: Simple Pub rmw_fastrtps_cpp Resident Anonymous Memory Subscriber
+    y_axis_label: Mb
+    master_csv_name: plot-6357884494534554079.csv
+    style: line
+    y_axis_exclude_zero: True
+    data_series:
+    - data_file: ws/test_results/buildfarm_perf_tests/overhead_test_results_rmw_fastrtps_cpp_*_pub.csv
+      data_type: csv
+      selection_flag: INCLUDE_BY_COLUMN
+      selection_value: 11
+      url: /job/Dci__nightly-performance-overhead_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/overhead_test_results_%name%_pub_resident_anonymous_memory.png
+  - title: Simple Pub rmw_fastrtps_cpp Physical Memory Subscriber
+    y_axis_label: Mb
+    master_csv_name: plot-4961513442437008762.csv
+    style: line
+    y_axis_exclude_zero: True
+    data_series:
+    - data_file: ws/test_results/buildfarm_perf_tests/overhead_test_results_rmw_fastrtps_cpp_*_pub.csv
+      data_type: csv
+      selection_flag: INCLUDE_BY_COLUMN
+      selection_value: 8
+      url: /job/Dci__nightly-performance-overhead_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/overhead_test_results_%name%_pub_physical_memory.png
+  - title: Simple Pub rmw_fastrtps_cpp CPU Usage Subscriber
+    y_axis_label: Utilization (%)
+    master_csv_name: plot-2624592478670827434.csv
+    style: line
+    y_axis_exclude_zero: True
+    data_series:
+    - data_file: ws/test_results/buildfarm_perf_tests/overhead_test_results_rmw_fastrtps_cpp_*_pub.csv
+      data_type: csv
+      selection_flag: INCLUDE_BY_COLUMN
+      selection_value: 5
+      url: /job/Dci__nightly-performance-overhead_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/overhead_test_results_%name%_pub_cpu_usage.png
   - title: Simple Sub rmw_fastrtps_cpp Virtual Memory Publisher
     y_axis_label: Mb
     numBuilds: 50
-    master_csv_name: plot-4687179272310570251.csv
+    master_csv_name: plot-1236039651926470696.csv
     style: line
     y_axis_exclude_zero: True
     data_series:
@@ -137,6 +169,38 @@ show_plots:
       selection_flag: INCLUDE_BY_COLUMN
       selection_value: 2
       url: /job/Dci__nightly-performance-overhead_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/overhead_test_results_%name%_sub_virtual_memory.png
-
+  - title: Simple Sub rmw_fastrtps_cpp Resident Anonymous Memory Subscriber
+    y_axis_label: Mb
+    master_csv_name: plot-7270689467069722035.csv
+    style: line
+    y_axis_exclude_zero: True
+    data_series:
+    - data_file: ws/test_results/buildfarm_perf_tests/overhead_test_results_rmw_fastrtps_cpp_*_sub.csv
+      data_type: csv
+      selection_flag: INCLUDE_BY_COLUMN
+      selection_value: 11
+      url: /job/Dci__nightly-performance-overhead_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/overhead_test_results_%name%_sub_resident_anonymous_memory.png
+  - title: Simple Sub rmw_fastrtps_cpp Physical Memory Subscriber
+    y_axis_label: Mb
+    master_csv_name: plot-7007648100955438042.csv
+    style: line
+    y_axis_exclude_zero: True
+    data_series:
+    - data_file: ws/test_results/buildfarm_perf_tests/overhead_test_results_rmw_fastrtps_cpp_*_sub.csv
+      data_type: csv
+      selection_flag: INCLUDE_BY_COLUMN
+      selection_value: 8
+      url: /job/Dci__nightly-performance-overhead_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/overhead_test_results_%name%_sub_physical_memory.png
+  - title: Simple Sub rmw_fastrtps_cpp CPU Usage Subscriber
+    y_axis_label: Utilization (%)
+    master_csv_name: plot-6085822565529773789.csv
+    style: line
+    y_axis_exclude_zero: True
+    data_series:
+    - data_file: ws/test_results/buildfarm_perf_tests/overhead_test_results_rmw_fastrtps_cpp_*_sub.csv
+      data_type: csv
+      selection_flag: INCLUDE_BY_COLUMN
+      selection_value: 5
+      url: /job/Dci__nightly-performance-overhead_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/overhead_test_results_%name%_sub_cpu_usage.png
 
 version: 1
