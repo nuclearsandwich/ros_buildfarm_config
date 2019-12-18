@@ -701,7 +701,6 @@ show_plots:
       selection_flag: INCLUDE_BY_COLUMN
       selection_value: 5
       url: /job/Dci__nightly-performance-overhead-multi-v2_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/overhead_test_results_%name%_sub_cpu_usage.png
-  Pub/Sub rmw_connext_cpp Test Results:
   - title: Simple Pub rmw_connext_cpp CPU Usage
     y_axis_label: Utilization (%)
     master_csv_name: plot-3899180797146405599.csv
@@ -724,7 +723,6 @@ show_plots:
       selection_flag: INCLUDE_BY_COLUMN
       selection_value: 5
       url: /job/Dci__nightly-performance-overhead-multi-v2_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/overhead_test_results_%name%_sub_cpu_usage.png
-  Pub/Sub rmw_cyclonedds_cpp Test Results:
   - title: Simple Pub rmw_cyclonedds_cpp CPU Usage
     y_axis_label: Utilization (%)
     master_csv_name: plot-0070737137751926815.csv
@@ -747,7 +745,6 @@ show_plots:
       selection_flag: INCLUDE_BY_COLUMN
       selection_value: 5
       url: /job/Dci__nightly-performance-overhead-multi-v2_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/overhead_test_results_%name%_sub_cpu_usage.png
-  Pub/Sub rmw_opensplice_cpp Test Results:
   - title: Simple Pub rmw_opensplice_cpp CPU Usage
     y_axis_label: Utilization (%)
     master_csv_name: plot-8675614829594175454.csv
@@ -770,7 +767,6 @@ show_plots:
       selection_flag: INCLUDE_BY_COLUMN
       selection_value: 5
       url: /job/Dci__nightly-performance-overhead-multi-v2_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/overhead_test_results_%name%_sub_cpu_usage.png
-  Pub/Sub rmw_fastrtps_dynamic_cpp Test Results:
   - title: Simple Pub rmw_fastrtps_dynamic_cpp CPU Usage
     y_axis_label: Utilization (%)
     master_csv_name: plot-6060428962470187435.csv
@@ -793,7 +789,5 @@ show_plots:
       selection_flag: INCLUDE_BY_COLUMN
       selection_value: 5
       url: /job/Dci__nightly-performance-overhead-multi-v2_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/overhead_test_results_%name%_sub_cpu_usage.png
-
-
 
 version: 1
