@@ -23,7 +23,7 @@ distributions:
       nightly-performance: dashing/ci-nightly-performance.yaml
       nightly-performance-overhead: dashing/ci-nightly-performance-overhead.yaml
       nightly-performance-overhead-multi: dashing/ci-nightly-performance-overhead-multi.yaml
-      nightly-performance-overhead-multi: dashing/ci-nightly-performance-overhead-multiv2.yaml
+      nightly-performance-overhead-multiv2: dashing/ci-nightly-performance-overhead-multiv2.yaml
       nightly-extra-rmw-release: dashing/ci-nightly-extra-rmw-release.yaml
       overlay: dashing/ci-overlay.yaml
     doc_builds: {}
