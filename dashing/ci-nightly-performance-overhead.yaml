@@ -178,7 +178,7 @@ show_plots:
       selection_flag: INCLUDE_BY_COLUMN
       selection_value: 7
       url: /job/Dci__nightly-performance-overhead_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_results_%name%_cpu_usage.png
-  - title: Simple Pub/Sub Virtual Memory Publisher
+  - title: Simple Pub Virtual Memory Publisher
     y_axis_label: Mb
     master_csv_name: plot-9468391163998201982.csv
     style: line
@@ -189,7 +189,7 @@ show_plots:
       selection_flag: INCLUDE_BY_COLUMN
       selection_value: 2
       url: /job/Dci__nightly-performance-overhead_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/overhead_test_results_%name%_pub_virtual_memory.png
-  - title: Simple Pub/Sub Virtual Memory Subscriber
+  - title: Simple Sub Virtual Memory Subscriber
     y_axis_label: Mb
     master_csv_name: plot-2999963187292673715.csv
     style: line
@@ -200,7 +200,7 @@ show_plots:
       selection_flag: INCLUDE_BY_COLUMN
       selection_value: 2
       url: /job/Dci__nightly-performance-overhead_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/overhead_test_results_%name%_sub_virtual_memory.png
-  - title: Simple Pub/Sub CPU Usage Publisher
+  - title: Simple Pub CPU Usage Publisher
     y_axis_label: Utilization (%)
     master_csv_name: plot-7334251122353272290.csv
     style: line
@@ -211,7 +211,7 @@ show_plots:
       selection_flag: INCLUDE_BY_COLUMN
       selection_value: 5
       url: /job/Dci__nightly-performance-overhead_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/overhead_test_results_%name%_pub_cpu_usage.png
-  - title: Simple Pub/Sub CPU Usage Subscriber
+  - title: Simple Sub CPU Usage Subscriber
     y_axis_label: Utilization (%)
     master_csv_name: plot-9320264734963316225.csv
     style: line
@@ -222,7 +222,7 @@ show_plots:
       selection_flag: INCLUDE_BY_COLUMN
       selection_value: 5
       url: /job/Dci__nightly-performance-overhead_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/overhead_test_results_%name%_sub_cpu_usage.png
-  - title: Simple Pub/Sub Physical Memory Publisher
+  - title: Simple Pub Physical Memory Publisher
     y_axis_label: Mb
     master_csv_name: plot-6110705052430373038.csv
     style: line
@@ -233,7 +233,7 @@ show_plots:
       selection_flag: INCLUDE_BY_COLUMN
       selection_value: 8
       url: /job/Dci__nightly-performance-overhead_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/overhead_test_results_%name%_pub_physical_memory.png
-  - title: Simple Pub/Sub Physical Memory Subscriber
+  - title: Simple Sub Physical Memory Subscriber
     y_axis_label: Mb
     master_csv_name: plot-6992542010156017001.csv
     style: line
@@ -244,7 +244,7 @@ show_plots:
       selection_flag: INCLUDE_BY_COLUMN
       selection_value: 8
       url: /job/Dci__nightly-performance-overhead_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/overhead_test_results_%name%_sub_physical_memory.png
-  - title: Simple Pub/Sub Resident Anonymous Memory Publisher
+  - title: Simple Sub Resident Anonymous Memory Publisher
     y_axis_label: Mb
     master_csv_name: plot-7227708251266038523.csv
     style: line
