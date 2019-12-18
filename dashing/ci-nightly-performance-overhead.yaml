@@ -178,6 +178,7 @@ show_plots:
       selection_flag: INCLUDE_BY_COLUMN
       selection_value: 7
       url: /job/Dci__nightly-performance-overhead_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_results_%name%_cpu_usage.png
+  Simple Pub/Sub Test Results:
   - title: Simple Pub Virtual Memory Publisher
     y_axis_label: Mb
     master_csv_name: plot-9468391163998201982.csv
@@ -266,6 +267,7 @@ show_plots:
       selection_flag: INCLUDE_BY_COLUMN
       selection_value: 11
       url: /job/Dci__nightly-performance-overhead_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/overhead_test_results_%name%_sub_resident_anonymous_memory.png
+  Node Spinnig Results:
   - title: Node Spinning Virtual Memory
     y_axis_label: Mb
     master_csv_name: plot-2825890930649960320.csv
