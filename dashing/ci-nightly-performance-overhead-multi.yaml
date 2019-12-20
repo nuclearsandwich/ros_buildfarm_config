@@ -149,7 +149,6 @@ show_plots:
     y_axis_label: Total Count
     master_csv_name: plot-6942932918513090516.csv
     style: line
-    exclZero: true
     data_series:
     - data_file: ws/test_results/buildfarm_perf_tests/overhead_test_results_rmw_fastrtps_cpp_*_pub.csv
       data_type: csv
@@ -288,7 +287,6 @@ show_plots:
     y_axis_label: Total Count
     master_csv_name: plot-4223140854690222613.csv
     style: line
-    exclZero: true
     data_series:
     - data_file: ws/test_results/buildfarm_perf_tests/overhead_test_results_rmw_connext_cpp_*_pub.csv
       data_type: csv
@@ -427,7 +425,6 @@ show_plots:
     y_axis_label: Total Count
     master_csv_name: plot-6982685149465292607.csv
     style: line
-    exclZero: true
     data_series:
     - data_file: ws/test_results/buildfarm_perf_tests/overhead_test_results_rmw_cyclonedds_cpp_*_pub.csv
       data_type: csv
@@ -566,7 +563,6 @@ show_plots:
     y_axis_label: Total Count
     master_csv_name: plot-8033949000601532550.csv
     style: line
-    exclZero: true
     data_series:
     - data_file: ws/test_results/buildfarm_perf_tests/overhead_test_results_rmw_opensplice_cpp_*_pub.csv
       data_type: csv
@@ -705,7 +701,6 @@ show_plots:
     y_axis_label: Total Count
     master_csv_name: plot-4437460123008288204.csv
     style: line
-    exclZero: true
     data_series:
     - data_file: ws/test_results/buildfarm_perf_tests/overhead_test_results_rmw_fastrtps_dynamic_cpp_*_pub.csv
       data_type: csv
@@ -979,7 +974,6 @@ show_plots:
     y_axis_label: Total Count
     master_csv_name: plot-9880709997570793900.csv
     style: line
-    exclZero: true
     data_series:
     - data_file: ws/test_results/buildfarm_perf_tests/overhead_test_results_rmw_fastrtps_cpp_*_pub.csv
       data_type: csv
@@ -990,7 +984,6 @@ show_plots:
     y_axis_label: Total Count
     master_csv_name: plot-9892139762672948613.csv
     style: line
-    exclZero: true
     data_series:
     - data_file: ws/test_results/buildfarm_perf_tests/overhead_test_results_rmw_connext_cpp_*_pub.csv
       data_type: csv
@@ -1001,7 +994,6 @@ show_plots:
     y_axis_label: Total Count
     master_csv_name: plot-1778048723080487597.csv
     style: line
-    exclZero: true
     data_series:
     - data_file: ws/test_results/buildfarm_perf_tests/overhead_test_results_rmw_cyclonedds_cpp_*_pub.csv
       data_type: csv
@@ -1012,7 +1004,6 @@ show_plots:
     y_axis_label: Total Count
     master_csv_name: plot-4523477173224798484.csv
     style: line
-    exclZero: true
     data_series:
     - data_file: ws/test_results/buildfarm_perf_tests/overhead_test_results_rmw_opensplice_cpp_*_pub.csv
       data_type: csv
@@ -1023,7 +1014,6 @@ show_plots:
     y_axis_label: Total Count
     master_csv_name: plot-4850401203888845005.csv
     style: line
-    exclZero: true
     data_series:
     - data_file: ws/test_results/buildfarm_perf_tests/overhead_test_results_rmw_fastrtps_dynamic_cpp_*_pub.csv
       data_type: csv
