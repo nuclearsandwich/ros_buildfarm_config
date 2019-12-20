@@ -189,6 +189,8 @@ show_plots:
     master_csv_name: plot-4961513442437008762.csv
     style: line
     exclZero: true
+    yaxisMinimum: 0
+    yaxisMaximum: 100
     data_series:
     - data_file: ws/test_results/buildfarm_perf_tests/overhead_test_results_rmw_fastrtps_cpp_*_pub.csv
       data_type: csv
@@ -236,6 +238,8 @@ show_plots:
     master_csv_name: plot-7007648100955438042.csv
     style: line
     exclZero: true
+    yaxisMinimum: 0
+    yaxisMaximum: 100
     data_series:
     - data_file: ws/test_results/buildfarm_perf_tests/overhead_test_results_rmw_fastrtps_cpp_*_sub.csv
       data_type: csv
@@ -333,6 +337,8 @@ show_plots:
     master_csv_name: plot-8081026997242060720.csv
     style: line
     exclZero: true
+    yaxisMinimum: 0
+    yaxisMaximum: 100
     data_series:
     - data_file: ws/test_results/buildfarm_perf_tests/overhead_test_results_rmw_connext_cpp_*_pub.csv
       data_type: csv
@@ -380,6 +386,8 @@ show_plots:
     master_csv_name: plot-2133163917103993702.csv
     style: line
     exclZero: true
+    yaxisMinimum: 0
+    yaxisMaximum: 100
     data_series:
     - data_file: ws/test_results/buildfarm_perf_tests/overhead_test_results_rmw_connext_cpp_*_sub.csv
       data_type: csv
@@ -477,6 +485,8 @@ show_plots:
     master_csv_name: plot-5631589114138554339.csv
     style: line
     exclZero: true
+    yaxisMinimum: 0
+    yaxisMaximum: 100
     data_series:
     - data_file: ws/test_results/buildfarm_perf_tests/overhead_test_results_rmw_cyclonedds_cpp_*_pub.csv
       data_type: csv
@@ -524,6 +534,8 @@ show_plots:
     master_csv_name: plot-3602213721300095598.csv
     style: line
     exclZero: true
+    yaxisMinimum: 0
+    yaxisMaximum: 100
     data_series:
     - data_file: ws/test_results/buildfarm_perf_tests/overhead_test_results_rmw_cyclonedds_cpp_*_sub.csv
       data_type: csv
@@ -621,6 +633,8 @@ show_plots:
     master_csv_name: plot-7339237287784125944.csv
     style: line
     exclZero: true
+    yaxisMinimum: 0
+    yaxisMaximum: 100
     data_series:
     - data_file: ws/test_results/buildfarm_perf_tests/overhead_test_results_rmw_opensplice_cpp_*_pub.csv
       data_type: csv
@@ -668,6 +682,8 @@ show_plots:
     master_csv_name: plot-7558401867527211560.csv
     style: line
     exclZero: true
+    yaxisMinimum: 0
+    yaxisMaximum: 100
     data_series:
     - data_file: ws/test_results/buildfarm_perf_tests/overhead_test_results_rmw_opensplice_cpp_*_sub.csv
       data_type: csv
@@ -765,6 +781,8 @@ show_plots:
     master_csv_name: plot-3299429724417776680.csv
     style: line
     exclZero: true
+    yaxisMinimum: 0
+    yaxisMaximum: 100
     data_series:
     - data_file: ws/test_results/buildfarm_perf_tests/overhead_test_results_rmw_fastrtps_dynamic_cpp_*_pub.csv
       data_type: csv
@@ -812,6 +830,8 @@ show_plots:
     master_csv_name: plot-5989438234446769842.csv
     style: line
     exclZero: true
+    yaxisMinimum: 0
+    yaxisMaximum: 100
     data_series:
     - data_file: ws/test_results/buildfarm_perf_tests/overhead_test_results_rmw_fastrtps_dynamic_cpp_*_sub.csv
       data_type: csv
@@ -1316,6 +1336,8 @@ show_plots:
     master_csv_name: plot-6076478741691131724.csv
     style: line
     exclZero: true
+    yaxisMinimum: 0
+    yaxisMaximum: 100
     data_series:
     - data_file: ws/test_results/buildfarm_perf_tests/overhead_test_results_rmw_fastrtps_cpp_*_pub.csv
       data_type: csv
@@ -1327,6 +1349,8 @@ show_plots:
     master_csv_name: plot-9877136785340122306.csv
     style: line
     exclZero: true
+    yaxisMinimum: 0
+    yaxisMaximum: 100
     data_series:
     - data_file: ws/test_results/buildfarm_perf_tests/overhead_test_results_rmw_fastrtps_cpp_*_sub.csv
       data_type: csv
@@ -1338,6 +1362,8 @@ show_plots:
     master_csv_name: plot-5570070114036116600.csv
     style: line
     exclZero: true
+    yaxisMinimum: 0
+    yaxisMaximum: 100
     data_series:
     - data_file: ws/test_results/buildfarm_perf_tests/overhead_test_results_rmw_connext_cpp_*_pub.csv
       data_type: csv
@@ -1349,6 +1375,8 @@ show_plots:
     master_csv_name: plot-2698951809390756015.csv
     style: line
     exclZero: true
+    yaxisMinimum: 0
+    yaxisMaximum: 100
     data_series:
     - data_file: ws/test_results/buildfarm_perf_tests/overhead_test_results_rmw_connext_cpp_*_sub.csv
       data_type: csv
@@ -1360,6 +1388,8 @@ show_plots:
     master_csv_name: plot-6170931870596086264.csv
     style: line
     exclZero: true
+    yaxisMinimum: 0
+    yaxisMaximum: 100
     data_series:
     - data_file: ws/test_results/buildfarm_perf_tests/overhead_test_results_rmw_cyclonedds_cpp_*_pub.csv
       data_type: csv
@@ -1371,6 +1401,8 @@ show_plots:
     master_csv_name: plot-4994745987932178527.csv
     style: line
     exclZero: true
+    yaxisMinimum: 0
+    yaxisMaximum: 100
     data_series:
     - data_file: ws/test_results/buildfarm_perf_tests/overhead_test_results_rmw_cyclonedds_cpp_*_sub.csv
       data_type: csv
@@ -1382,6 +1414,8 @@ show_plots:
     master_csv_name: plot-3695963115152701391.csv
     style: line
     exclZero: true
+    yaxisMinimum: 0
+    yaxisMaximum: 100
     data_series:
     - data_file: ws/test_results/buildfarm_perf_tests/overhead_test_results_rmw_opensplice_cpp_*_pub.csv
       data_type: csv
@@ -1393,6 +1427,8 @@ show_plots:
     master_csv_name: plot-6188917408152135336.csv
     style: line
     exclZero: true
+    yaxisMinimum: 0
+    yaxisMaximum: 100
     data_series:
     - data_file: ws/test_results/buildfarm_perf_tests/overhead_test_results_rmw_opensplice_cpp_*_sub.csv
       data_type: csv
@@ -1404,6 +1440,8 @@ show_plots:
     master_csv_name: plot-0484073720302041706.csv
     style: line
     exclZero: true
+    yaxisMinimum: 0
+    yaxisMaximum: 100
     data_series:
     - data_file: ws/test_results/buildfarm_perf_tests/overhead_test_results_rmw_fastrtps_dynamic_cpp_*_pub.csv
       data_type: csv
@@ -1415,6 +1453,8 @@ show_plots:
     master_csv_name: plot-8031765656021713253.csv
     style: line
     exclZero: true
+    yaxisMinimum: 0
+    yaxisMaximum: 100
     data_series:
     - data_file: ws/test_results/buildfarm_perf_tests/overhead_test_results_rmw_fastrtps_dynamic_cpp_*_sub.csv
       data_type: csv
