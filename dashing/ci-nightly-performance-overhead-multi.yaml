@@ -917,4 +917,73 @@ show_plots:
       selection_flag: INCLUDE_BY_COLUMN
       selection_value: 11
       url: /job/Dci__nightly-performance-overhead-multi_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/overhead_node_test_results_%name%_resident_anonymous_memory.png
+  Performance Test Results:
+  - title: Average Round-Trip Time
+    y_axis_label: Milliseconds
+    master_csv_name: plot-6509911700247260954.csv
+    style: line
+    y_axis_exclude_zero: False
+    data_series:
+    - data_file: ws/test_results/buildfarm_perf_tests/performance_test_results_*.csv
+      data_type: csv
+      selection_flag: INCLUDE_BY_COLUMN
+      selection_value: 0
+      url: /job/Dci__nightly-performance-overhead-multi_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_results_%name%.png
+  - title: Max Resident Set Size
+    y_axis_label: Megabytes
+    master_csv_name: plot-8724667824625016735.csv
+    style: line
+    y_axis_exclude_zero: True
+    data_series:
+    - data_file: ws/test_results/buildfarm_perf_tests/performance_test_results_*.csv
+      data_type: csv
+      selection_flag: INCLUDE_BY_COLUMN
+      selection_value: 1
+      url: /job/Dci__nightly-performance-overhead-multi_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_results_%name%.png
+  - title: Received packets
+    y_axis_label: Number
+    master_csv_name: plot-8724667824625016791.csv
+    style: line
+    y_axis_exclude_zero: True
+    data_series:
+    - data_file: ws/test_results/buildfarm_perf_tests/performance_test_results_*.csv
+      data_type: csv
+      selection_flag: INCLUDE_BY_COLUMN
+      selection_value: 2
+      url: /job/Dci__nightly-performance-overhead-multi_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_results_%name%_histogram.png
+  - title: Sent packets
+    y_axis_label: Number
+    master_csv_name: plot-8724667824625016761.csv
+    style: line
+    y_axis_exclude_zero: True
+    data_series:
+    - data_file: ws/test_results/buildfarm_perf_tests/performance_test_results_*.csv
+      data_type: csv
+      selection_flag: INCLUDE_BY_COLUMN
+      selection_value: 3
+      url: /job/Dci__nightly-performance-overhead-multi_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_results_%name%_histogram.png
+  - title: Lost packets
+    y_axis_label: Number
+    master_csv_name: plot-8724667824625016731.csv
+    style: line
+    y_axis_exclude_zero: True
+    data_series:
+    - data_file: ws/test_results/buildfarm_perf_tests/performance_test_results_*.csv
+      data_type: csv
+      selection_flag: INCLUDE_BY_COLUMN
+      selection_value: 4
+      url: /job/Dci__nightly-performance-overhead-multi_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_results_%name%_histogram.png
+  - title: CPU usage (%)
+    y_axis_label: Number
+    master_csv_name: plot-8724667824425016731.csv
+    style: line
+    y_axis_exclude_zero: True
+    data_series:
+    - data_file: ws/test_results/buildfarm_perf_tests/performance_test_results_*.csv
+      data_type: csv
+      selection_flag: INCLUDE_BY_COLUMN
+      selection_value: 5
+      url: /job/Dci__nightly-performance-overhead-multi_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_results_%name%_cpu_usage.png
+
+
 version: 1
