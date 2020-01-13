@@ -878,6 +878,8 @@ show_plots:
     master_csv_name: plot-2825890930649960320.csv
     style: line
     y_axis_exclude_zero: True
+    y_axis_minimum: 0
+    y_axis_maximum: 1024
     data_series:
     - data_file: ws/test_results/buildfarm_perf_tests/overhead_node_test_results_*.csv
       data_type: csv
@@ -888,6 +890,8 @@ show_plots:
     y_axis_label: Utilization (%)
     master_csv_name: plot-8619035331321837524.csv
     style: line
+    y_axis_minimum: 0
+    y_axis_maximum: 100
     y_axis_exclude_zero: True
     data_series:
     - data_file: ws/test_results/buildfarm_perf_tests/overhead_node_test_results_*.csv
@@ -900,6 +904,8 @@ show_plots:
     master_csv_name: plot-8540700059039721960.csv
     style: line
     y_axis_exclude_zero: True
+    y_axis_minimum: 0
+    y_axis_maximum: 100
     data_series:
     - data_file: ws/test_results/buildfarm_perf_tests/overhead_node_test_results_*.csv
       data_type: csv
@@ -910,6 +916,8 @@ show_plots:
     y_axis_label: Mb
     master_csv_name: plot-5231506973007749250.csv
     style: line
+    y_axis_minimum: 0
+    y_axis_maximum: 100
     y_axis_exclude_zero: True
     data_series:
     - data_file: ws/test_results/buildfarm_perf_tests/overhead_node_test_results_*.csv
@@ -922,6 +930,8 @@ show_plots:
     y_axis_label: Milliseconds
     master_csv_name: plot-6509911700247260954.csv
     style: line
+    y_axis_minimum: 0
+    y_axis_maximum: 1
     y_axis_exclude_zero: False
     data_series:
     - data_file: ws/test_results/buildfarm_perf_tests/performance_test_results_*.csv
@@ -977,6 +987,8 @@ show_plots:
     y_axis_label: Number
     master_csv_name: plot-8724667824425016731.csv
     style: line
+    y_axis_minimum: 0
+    y_axis_maximum: 100
     y_axis_exclude_zero: True
     data_series:
     - data_file: ws/test_results/buildfarm_perf_tests/performance_test_results_*.csv
@@ -984,6 +996,5 @@ show_plots:
       selection_flag: INCLUDE_BY_COLUMN
       selection_value: 5
       url: /job/Dci__nightly-performance-overhead-multi_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_results_%name%_cpu_usage.png
-
 
 version: 1
