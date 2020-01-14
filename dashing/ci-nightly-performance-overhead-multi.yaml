@@ -1014,7 +1014,7 @@ show_plots:
     - data_file: ws/test_results/buildfarm_perf_tests/performance_test_results_*.csv
       data_type: csv
       selection_flag: INCLUDE_BY_COLUMN
-      selection_value: 1
+      selection_value: 3
       url: /job/Dci__nightly-performance-overhead-multi_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_results_%name%.png
   - title: Received packets
     y_axis_label: Number
@@ -1026,7 +1026,7 @@ show_plots:
     - data_file: ws/test_results/buildfarm_perf_tests/performance_test_results_*.csv
       data_type: csv
       selection_flag: INCLUDE_BY_COLUMN
-      selection_value: 2
+      selection_value: 4
       url: /job/Dci__nightly-performance-overhead-multi_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_results_%name%_histogram.png
   - title: Sent packets
     y_axis_label: Number
@@ -1038,7 +1038,7 @@ show_plots:
     - data_file: ws/test_results/buildfarm_perf_tests/performance_test_results_*.csv
       data_type: csv
       selection_flag: INCLUDE_BY_COLUMN
-      selection_value: 3
+      selection_value: 5
       url: /job/Dci__nightly-performance-overhead-multi_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_results_%name%_histogram.png
   - title: Lost packets
     y_axis_label: Number
@@ -1050,7 +1050,7 @@ show_plots:
     - data_file: ws/test_results/buildfarm_perf_tests/performance_test_results_*.csv
       data_type: csv
       selection_flag: INCLUDE_BY_COLUMN
-      selection_value: 4
+      selection_value: 6
       url: /job/Dci__nightly-performance-overhead-multi_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_results_%name%_histogram.png
   - title: CPU usage (%)
     y_axis_label: Number
@@ -1064,7 +1064,7 @@ show_plots:
     - data_file: ws/test_results/buildfarm_perf_tests/performance_test_results_*.csv
       data_type: csv
       selection_flag: INCLUDE_BY_COLUMN
-      selection_value: 5
+      selection_value: 8
       url: /job/Dci__nightly-performance-overhead-multi_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_results_%name%_cpu_usage.png
 
 version: 1
