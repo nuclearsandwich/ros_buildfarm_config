@@ -71,6 +71,7 @@ distributions:
       nightly-fastrtps: foxy/ci-nightly-fastrtps.yaml
       nightly-fastrtps-dynamic: foxy/ci-nightly-fastrtps-dynamic.yaml
       nightly-navigation2: foxy/ci-nightly-navigation2.yaml
+      nightly-performance-overhead-multi: foxy/ci-nightly-performance-overhead-multi.yaml
       nightly-navigation2-prerequisites: foxy/ci-nightly-navigation2-prerequisites.yaml
       nightly-opensplice: foxy/ci-nightly-opensplice.yaml
       nightly-release: foxy/ci-nightly-release.yaml
