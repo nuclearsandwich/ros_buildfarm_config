@@ -989,7 +989,7 @@ show_plots:
       selection_flag: INCLUDE_BY_COLUMN
       selection_value: 11
       url: /job/Eci__nightly-performance-overhead-multi_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/overhead_node_test_results_%name%_resident_anonymous_memory.png
-  Performance one process Test Results:
+  Performance One Process Test Results:
   - title: Average Round-Trip Time
     y_axis_label: Milliseconds
     master_csv_name: plot-0265876994475799872.csv
@@ -1066,7 +1066,7 @@ show_plots:
       selection_flag: INCLUDE_BY_COLUMN
       selection_value: 8
       url: /job/Eci__nightly-performance-overhead-multi_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_results_%name%_cpu_usage.png
-  Performance Two Process Test Results:
+  Performance Two Processes Test Results:
   - title: Average Round-Trip Time
     y_axis_label: Milliseconds
     master_csv_name: plot-5516033016820989579.csv
