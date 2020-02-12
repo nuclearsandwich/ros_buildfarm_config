@@ -16,14 +16,14 @@ install_packages:
 - libasio-dev # for FastRTPS
 - libtinyxml2-dev # for FastRTPS
 - maven # for CycloneDDS
-- ros-noetic-common-msgs
-- ros-noetic-rosbash
-- ros-noetic-roscpp
-- ros-noetic-roscpp-tutorials
-- ros-noetic-roslaunch
-- ros-noetic-rosmsg
-- ros-noetic-rospy-tutorials
-- ros-noetic-tf2-msgs
+# - ros-noetic-common-msgs
+# - ros-noetic-rosbash
+# - ros-noetic-roscpp
+# - ros-noetic-roscpp-tutorials
+# - ros-noetic-roslaunch
+# - ros-noetic-rosmsg
+# - ros-noetic-rospy-tutorials
+# - ros-noetic-tf2-msgs
 jenkins_job_label: buildagent
 jenkins_job_priority: 50
 jenkins_job_timeout: 60
