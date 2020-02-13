@@ -50,6 +50,7 @@ distributions:
       nightly-performance: eloquent/ci-nightly-performance.yaml
       nightly-performance-arm64: eloquent/ci-nightly-performance-arm64.yaml
       nightly-performance-overhead-multi: eloquent/ci-nightly-performance-overhead-multi.yaml
+      nightly-performance-multi: eloquent/ci-nightly-performance-multi.yaml
       nightly-performance-prerequisites: eloquent/ci-nightly-performance-prerequisites.yaml
       nightly-release: eloquent/ci-nightly-release.yaml
       overlay: eloquent/ci-overlay.yaml
