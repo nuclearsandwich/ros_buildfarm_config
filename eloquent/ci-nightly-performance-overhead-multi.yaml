@@ -990,7 +990,7 @@ show_plots:
       selection_flag: INCLUDE_BY_COLUMN
       selection_value: 11
       url: /job/Eci__nightly-performance-overhead-multi_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/overhead_node_test_results_%name%_resident_anonymous_memory.png
-  Performance One Process Test Results:
+  Performance One Process Test Results (Array1k):
   - title: Average Round-Trip Time
     description: The figure shown above shows the average round-trip time in milisecond for different DDS vendors using a 1K array message with a publish rate of 1000. All DDS vendors are configured in asyncronous mode except cycloneDDS which is configured in syncronous mode.
     y_axis_label: Milliseconds
@@ -1082,6 +1082,7 @@ show_plots:
       selection_flag: INCLUDE_BY_COLUMN
       selection_value: 8
       url: /job/Eci__nightly-performance-overhead-multi_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_results_%name%_Array1k_cpu_usage.png
+  Performance One Process Test Results (multisize packets):
   - title: Latency rmw_fastrtps_cpp Average Round-Trip Time multi packet sizes
     y_axis_label: Milliseconds
     master_csv_name: plot-7989855121841032462.csv
@@ -1130,7 +1131,7 @@ show_plots:
       selection_flag: INCLUDE_BY_COLUMN
       selection_value: 0
       url: /job/Eci__nightly-performance-overhead-multi_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_results__%name%.png
-  Performance Two Processes Test Results:
+  Performance Two Processes Test Results (Array1k):
   - title: Average Round-Trip Time
     y_axis_label: Milliseconds
     master_csv_name: plot-5516033016820989579.csv
@@ -1221,6 +1222,7 @@ show_plots:
       selection_flag: INCLUDE_BY_COLUMN
       selection_value: 8
       url: /job/Eci__nightly-performance-overhead-multi_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_two_process_results_%name%_Array1k_cpu_usage.png
+  Performance Two Processes Test Results (multisize packets):
   - title: Latency rmw_fastrtps_cpp Average Round-Trip Time multi packet sizes
     y_axis_label: Milliseconds
     master_csv_name: plot-7989855121841032462.csv
