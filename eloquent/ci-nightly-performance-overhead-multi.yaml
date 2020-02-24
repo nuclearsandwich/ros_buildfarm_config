@@ -125,6 +125,18 @@ show_plots:
       selection_flag: INCLUDE_BY_COLUMN
       selection_value: 14
       url: /job/Eci__nightly-performance-overhead-multi_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/overhead_test_results_%name%_publisher_latency.png
+  - title: Simple Pub rmw_fastrtps_sync_cpp Average Round-Trip Time
+    y_axis_label: Milliseconds
+    master_csv_name: plot-1548170160716485117.csv
+    style: line
+    num_builds: 10
+    exclZero: False
+    data_series:
+    - data_file: ws/test_results/buildfarm_perf_tests/overhead_test_results_rmw_fastrtps_sync_cpp_*_pub.csv
+      data_type: csv
+      selection_flag: INCLUDE_BY_COLUMN
+      selection_value: 14
+      url: /job/Eci__nightly-performance-overhead-multi_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/overhead_test_results_%name%_publisher_latency.png
   - title: Simple Pub rmw_connext_cpp Average Round-Trip Time
     y_axis_label: Milliseconds
     master_csv_name: plot-8863463112824923444.csv
@@ -188,7 +200,21 @@ show_plots:
       selection_flag: INCLUDE_BY_COLUMN
       selection_value: 16
       url: /job/Eci__nightly-performance-overhead-multi_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/overhead_test_results_%name%_publisher_histogram.png
-    - title: Simple Pub rmw_connext_cpp Received packets per second
+  - title: Simple Pub rmw_fastrtps_sync_cpp Received packets per second
+    y_axis_label: Packets per second
+    master_csv_name: plot-5986204500998122110.csv
+    style: line
+    num_builds: 10
+    y_axis_exclude_zero: True
+    y_axis_minimum: 0
+    y_axis_maximum: 10
+    data_series:
+    - data_file: ws/test_results/buildfarm_perf_tests/overhead_test_results_rmw_fastrtps_sync_cpp_*_pub.csv
+      data_type: csv
+      selection_flag: INCLUDE_BY_COLUMN
+      selection_value: 16
+      url: /job/Eci__nightly-performance-overhead-multi_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/overhead_test_results_%name%_publisher_histogram.png
+  - title: Simple Pub rmw_connext_cpp Received packets per second
     y_axis_label: Packets per second
     master_csv_name: plot-8373654910744149565.csv
     style: line
@@ -253,6 +279,20 @@ show_plots:
     y_axis_maximum: 10
     data_series:
     - data_file: ws/test_results/buildfarm_perf_tests/overhead_test_results_rmw_fastrtps_cpp_*_pub.csv
+      data_type: csv
+      selection_flag: INCLUDE_BY_COLUMN
+      selection_value: 17
+      url: /job/Eci__nightly-performance-overhead-multi_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/overhead_test_results_%name%_publisher_histogram.png
+  - title: Simple Pub rmw_fastrtps_sync_cpp Sent packets per second
+    y_axis_label: Packets per second
+    master_csv_name: plot-0340182343628841061.csv
+    style: line
+    num_builds: 10
+    y_axis_exclude_zero: True
+    y_axis_minimum: 0
+    y_axis_maximum: 10
+    data_series:
+    - data_file: ws/test_results/buildfarm_perf_tests/overhead_test_results_rmw_fastrtps_sync_cpp_*_pub.csv
       data_type: csv
       selection_flag: INCLUDE_BY_COLUMN
       selection_value: 17
@@ -323,6 +363,19 @@ show_plots:
     y_axis_maximum: 10
     data_series:
     - data_file: ws/test_results/buildfarm_perf_tests/overhead_test_results_rmw_fastrtps_cpp_*_pub.csv
+      data_type: csv
+      selection_flag: INCLUDE_BY_COLUMN
+      selection_value: 18
+      url: /job/Eci__nightly-performance-overhead-multi_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/overhead_test_results_%name%_publisher_histogram.png
+  - title: Simple Pub rmw_fastrtps_sync_cpp Lost packets
+    y_axis_label: Total Count
+    master_csv_name: plot-2854509393479926659.csv
+    style: line
+    num_builds: 10
+    y_axis_minimum: 0
+    y_axis_maximum: 10
+    data_series:
+    - data_file: ws/test_results/buildfarm_perf_tests/overhead_test_results_rmw_fastrtps_sync_cpp_*_pub.csv
       data_type: csv
       selection_flag: INCLUDE_BY_COLUMN
       selection_value: 18
@@ -406,6 +459,36 @@ show_plots:
     y_axis_maximum: 1000
     data_series:
     - data_file: ws/test_results/buildfarm_perf_tests/overhead_test_results_rmw_fastrtps_cpp_*_sub.csv
+      data_type: csv
+      selection_flag: INCLUDE_BY_COLUMN
+      selection_value: 2
+      url: /job/Eci__nightly-performance-overhead-multi_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/overhead_test_results_%name%_subscriber_virtual_memory.png
+  - title: Simple Pub rmw_fastrtps_sync_cpp Virtual Memory
+    y_axis_label: Mb
+    num_builds: 50
+    master_csv_name: plot-0552682453924221955.csv
+    style: line
+    num_builds: 10
+    y_axis_exclude_zero: True
+    y_axis_minimum: 0
+    y_axis_maximum: 1000
+    data_series:
+    - data_file: ws/test_results/buildfarm_perf_tests/overhead_test_results_rmw_fastrtps_sync_cpp_*_pub.csv
+      data_type: csv
+      selection_flag: INCLUDE_BY_COLUMN
+      selection_value: 2
+      url: /job/Eci__nightly-performance-overhead-multi_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/overhead_test_results_%name%_publisher_virtual_memory.png
+  - title: Simple Sub rmw_fastrtps_sync_cpp Virtual Memory
+    y_axis_label: Mb
+    num_builds: 50
+    master_csv_name: plot-8846433023668713651.csv
+    style: line
+    num_builds: 10
+    y_axis_exclude_zero: True
+    y_axis_minimum: 0
+    y_axis_maximum: 1000
+    data_series:
+    - data_file: ws/test_results/buildfarm_perf_tests/overhead_test_results_rmw_fastrtps_sync_cpp_*_sub.csv
       data_type: csv
       selection_flag: INCLUDE_BY_COLUMN
       selection_value: 2
@@ -555,6 +638,30 @@ show_plots:
       selection_flag: INCLUDE_BY_COLUMN
       selection_value: 11
       url: /job/Eci__nightly-performance-overhead-multi_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/overhead_test_results_%name%_subscriber_resident_anonymous_memory.png
+  - title: Simple Pub rmw_fastrtps_sync_cpp Resident Anonymous Memory
+    y_axis_label: Mb
+    master_csv_name: plot-4749366499659402122.csv
+    style: line
+    num_builds: 10
+    y_axis_exclude_zero: True
+    data_series:
+    - data_file: ws/test_results/buildfarm_perf_tests/overhead_test_results_rmw_fastrtps_sync_cpp_*_pub.csv
+      data_type: csv
+      selection_flag: INCLUDE_BY_COLUMN
+      selection_value: 11
+      url: /job/Eci__nightly-performance-overhead-multi_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/overhead_test_results_%name%_publisher_resident_anonymous_memory.png
+  - title: Simple Sub rmw_fastrtps_sync_cpp Resident Anonymous Memory
+    y_axis_label: Mb
+    master_csv_name: plot-2114164077954074642.csv
+    style: line
+    num_builds: 10
+    y_axis_exclude_zero: True
+    data_series:
+    - data_file: ws/test_results/buildfarm_perf_tests/overhead_test_results_rmw_fastrtps_sync_cpp_*_sub.csv
+      data_type: csv
+      selection_flag: INCLUDE_BY_COLUMN
+      selection_value: 11
+      url: /job/Eci__nightly-performance-overhead-multi_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/overhead_test_results_%name%_subscriber_resident_anonymous_memory.png
   - title: Simple Pub rmw_connext_cpp Resident Anonymous Memory
     y_axis_label: Mb
     master_csv_name: plot-0087675195318611826.csv
@@ -676,6 +783,34 @@ show_plots:
     y_axis_maximum: 100
     data_series:
     - data_file: ws/test_results/buildfarm_perf_tests/overhead_test_results_rmw_fastrtps_cpp_*_sub.csv
+      data_type: csv
+      selection_flag: INCLUDE_BY_COLUMN
+      selection_value: 8
+      url: /job/Eci__nightly-performance-overhead-multi_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/overhead_test_results_%name%_subscriber_physical_memory.png
+  - title: Simple Pub rmw_fastrtps_sync_cpp Physical Memory
+    y_axis_label: Mb
+    master_csv_name: plot-9624771708342753817.csv
+    style: line
+    num_builds: 10
+    y_axis_exclude_zero: True
+    y_axis_minimum: 0
+    y_axis_maximum: 100
+    data_series:
+    - data_file: ws/test_results/buildfarm_perf_tests/overhead_test_results_rmw_fastrtps_sync_cpp_*_pub.csv
+      data_type: csv
+      selection_flag: INCLUDE_BY_COLUMN
+      selection_value: 8
+      url: /job/Eci__nightly-performance-overhead-multi_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/overhead_test_results_%name%_publisher_physical_memory.png
+  - title: Simple Sub rmw_fastrtps_sync_cpp Physical Memory
+    y_axis_label: Mb
+    master_csv_name: plot-9005009129858114341.csv
+    style: line
+    num_builds: 10
+    y_axis_exclude_zero: True
+    y_axis_minimum: 0
+    y_axis_maximum: 100
+    data_series:
+    - data_file: ws/test_results/buildfarm_perf_tests/overhead_test_results_rmw_fastrtps_sync_cpp_*_sub.csv
       data_type: csv
       selection_flag: INCLUDE_BY_COLUMN
       selection_value: 8
@@ -817,6 +952,34 @@ show_plots:
     y_axis_maximum: 100
     data_series:
     - data_file: ws/test_results/buildfarm_perf_tests/overhead_test_results_rmw_fastrtps_cpp_*_sub.csv
+      data_type: csv
+      selection_flag: INCLUDE_BY_COLUMN
+      selection_value: 5
+      url: /job/Eci__nightly-performance-overhead-multi_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/overhead_test_results_%name%_subscriber_cpu_usage.png
+  - title: Simple Pub rmw_fastrtps_sync_cpp CPU Usage
+    y_axis_label: Utilization (%)
+    master_csv_name: plot-0008120561773606835.csv
+    style: line
+    num_builds: 10
+    y_axis_exclude_zero: True
+    y_axis_minimum: 0
+    y_axis_maximum: 100
+    data_series:
+    - data_file: ws/test_results/buildfarm_perf_tests/overhead_test_results_rmw_fastrtps_sync_cpp_*_pub.csv
+      data_type: csv
+      selection_flag: INCLUDE_BY_COLUMN
+      selection_value: 5
+      url: /job/Eci__nightly-performance-overhead-multi_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/overhead_test_results_%name%_publisher_cpu_usage.png
+  - title: Simple Sub rmw_fastrtps_sync_cpp CPU Usage
+    y_axis_label: Utilization (%)
+    master_csv_name: plot-5688754440205568392.csv
+    style: line
+    num_builds: 10
+    y_axis_exclude_zero: True
+    y_axis_minimum: 0
+    y_axis_maximum: 100
+    data_series:
+    - data_file: ws/test_results/buildfarm_perf_tests/overhead_test_results_rmw_fastrtps_sync_cpp_*_sub.csv
       data_type: csv
       selection_flag: INCLUDE_BY_COLUMN
       selection_value: 5
