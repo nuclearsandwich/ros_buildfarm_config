@@ -1164,11 +1164,11 @@ show_plots:
     y_axis_maximum: 0.2
     y_axis_exclude_zero: False
     data_series:
-    - data_file: ws/test_results/buildfarm_perf_tests/performance_test_results_*_Array1k.csv
+    - data_file: ws/test_results/buildfarm_perf_tests/performance_test_results_*.csv
       data_type: csv
       selection_flag: INCLUDE_BY_COLUMN
       selection_value: 0
-      url: /job/Eci__nightly-performance-overhead-multi_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_results_%name%_Array1k.png
+      url: /job/Eci__nightly-performance-overhead-multi_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_results_%name%.png
   - title: Throughtput
     y_axis_label: Mbits/s (mean)
     master_csv_name: plot-7374443465729306087.csv
@@ -1178,11 +1178,11 @@ show_plots:
     y_axis_maximum: 1000
     y_axis_exclude_zero: False
     data_series:
-    - data_file: ws/test_results/buildfarm_perf_tests/performance_test_results_*_Array1k.csv
+    - data_file: ws/test_results/buildfarm_perf_tests/performance_test_results_*.csv
       data_type: csv
       selection_flag: INCLUDE_BY_COLUMN
       selection_value: 10
-      url: /job/Eci__nightly-performance-overhead-multi_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_results_%name%_Array1k_throughtput.png
+      url: /job/Eci__nightly-performance-overhead-multi_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_results_%name%_throughtput.png
   - title: Max Resident Set Size
     y_axis_label: Megabytes
     master_csv_name: plot-1436376343511047813.csv
@@ -1190,11 +1190,11 @@ show_plots:
     num_builds: 10
     y_axis_exclude_zero: True
     data_series:
-    - data_file: ws/test_results/buildfarm_perf_tests/performance_test_results_*_Array1k.csv
+    - data_file: ws/test_results/buildfarm_perf_tests/performance_test_results_*.csv
       data_type: csv
       selection_flag: INCLUDE_BY_COLUMN
       selection_value: 3
-      url: /job/Eci__nightly-performance-overhead-multi_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_results_%name%_Array1k.png
+      url: /job/Eci__nightly-performance-overhead-multi_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_results_%name%.png
   - title: Received packets
     y_axis_label: Number
     master_csv_name: plot-2657929605417204644.csv
@@ -1202,11 +1202,11 @@ show_plots:
     num_builds: 10
     y_axis_exclude_zero: True
     data_series:
-    - data_file: ws/test_results/buildfarm_perf_tests/performance_test_results_*_Array1k.csv
+    - data_file: ws/test_results/buildfarm_perf_tests/performance_test_results_*.csv
       data_type: csv
       selection_flag: INCLUDE_BY_COLUMN
       selection_value: 4
-      url: /job/Eci__nightly-performance-overhead-multi_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_results_%name%_Array1k_histogram.png
+      url: /job/Eci__nightly-performance-overhead-multi_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_results_%name%_histogram.png
   - title: Sent packets
     y_axis_label: Number
     master_csv_name: plot-5146858432073608852.csv
@@ -1214,11 +1214,11 @@ show_plots:
     num_builds: 10
     y_axis_exclude_zero: True
     data_series:
-    - data_file: ws/test_results/buildfarm_perf_tests/performance_test_results_*_Array1k.csv
+    - data_file: ws/test_results/buildfarm_perf_tests/performance_test_results_*.csv
       data_type: csv
       selection_flag: INCLUDE_BY_COLUMN
       selection_value: 5
-      url: /job/Eci__nightly-performance-overhead-multi_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_results_%name%_Array1k_histogram.png
+      url: /job/Eci__nightly-performance-overhead-multi_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_results_%name%_histogram.png
   - title: Lost packets
     y_axis_label: Number
     master_csv_name: plot-2204596489946555197.csv
@@ -1226,11 +1226,11 @@ show_plots:
     num_builds: 10
     y_axis_exclude_zero: True
     data_series:
-    - data_file: ws/test_results/buildfarm_perf_tests/performance_test_results_*_Array1k.csv
+    - data_file: ws/test_results/buildfarm_perf_tests/performance_test_results_*.csv
       data_type: csv
       selection_flag: INCLUDE_BY_COLUMN
       selection_value: 6
-      url: /job/Eci__nightly-performance-overhead-multi_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_results_%name%_Array1k_histogram.png
+      url: /job/Eci__nightly-performance-overhead-multi_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_results_%name%_histogram.png
   - title: CPU usage (%)
     y_axis_label: Number
     master_csv_name: plot-4712887571310701790.csv
@@ -1240,11 +1240,11 @@ show_plots:
     y_axis_maximum: 100
     y_axis_exclude_zero: True
     data_series:
-    - data_file: ws/test_results/buildfarm_perf_tests/performance_test_results_*_Array1k.csv
+    - data_file: ws/test_results/buildfarm_perf_tests/performance_test_results_*.csv
       data_type: csv
       selection_flag: INCLUDE_BY_COLUMN
       selection_value: 8
-      url: /job/Eci__nightly-performance-overhead-multi_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_results_%name%_Array1k_cpu_usage.png
+      url: /job/Eci__nightly-performance-overhead-multi_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_results_%name%_cpu_usage.png
   Performance One Process Test Results (multisize packets):
   - title: Latency Average Round-Trip Time (Array1k)
     y_axis_label: Milliseconds
@@ -1253,7 +1253,7 @@ show_plots:
     num_builds: 10
     exclZero: False
     data_series:
-    - data_file: ws/test_results/buildfarm_perf_tests/performance_test_results_*_Array1k.csv
+    - data_file: ws/test_results/buildfarm_perf_tests/performance_test_results_*.csv
       data_type: csv
       selection_flag: INCLUDE_BY_COLUMN
       selection_value: 0
@@ -1349,7 +1349,7 @@ show_plots:
     num_builds: 10
     exclZero: False
     data_series:
-    - data_file: ws/test_results/buildfarm_perf_tests/performance_test_results_*_Array1k.csv
+    - data_file: ws/test_results/buildfarm_perf_tests/performance_test_results_*.csv
       data_type: csv
       selection_flag: INCLUDE_BY_COLUMN
       selection_value: 10
@@ -1448,11 +1448,11 @@ show_plots:
     y_axis_maximum: 0.2
     y_axis_exclude_zero: False
     data_series:
-    - data_file: ws/test_results/buildfarm_perf_tests/performance_test_two_process_results_*_Array1k.csv
+    - data_file: ws/test_results/buildfarm_perf_tests/performance_test_two_process_results_*.csv
       data_type: csv
       selection_flag: INCLUDE_BY_COLUMN
       selection_value: 0
-      url: /job/Eci__nightly-performance-overhead-multi_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_two_process_results_%name%_Array1k.png
+      url: /job/Eci__nightly-performance-overhead-multi_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_two_process_results_%name%.png
   - title: Throughtput
     y_axis_label: Mbits/s (mean)
     master_csv_name: plot-3979636808385181455.csv
@@ -1462,11 +1462,11 @@ show_plots:
     y_axis_maximum: 1000
     y_axis_exclude_zero: False
     data_series:
-    - data_file: ws/test_results/buildfarm_perf_tests/performance_test_two_process_results_*_Array1k.csv
+    - data_file: ws/test_results/buildfarm_perf_tests/performance_test_two_process_results_*.csv
       data_type: csv
       selection_flag: INCLUDE_BY_COLUMN
       selection_value: 10
-      url: /job/Eci__nightly-performance-overhead-multi_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_two_process_results_%name%_Array1k_throughtput.png
+      url: /job/Eci__nightly-performance-overhead-multi_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_two_process_results_%name%_throughtput.png
   - title: Max Resident Set Size
     y_axis_label: Megabytes
     master_csv_name: plot-2577347939068603483.csv
@@ -1474,11 +1474,11 @@ show_plots:
     num_builds: 10
     y_axis_exclude_zero: True
     data_series:
-    - data_file: ws/test_results/buildfarm_perf_tests/performance_test_two_process_results_*_Array1k.csv
+    - data_file: ws/test_results/buildfarm_perf_tests/performance_test_two_process_results_*.csv
       data_type: csv
       selection_flag: INCLUDE_BY_COLUMN
       selection_value: 3
-      url: /job/Eci__nightly-performance-overhead-multi_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_two_process_results_%name%_Array1k.png
+      url: /job/Eci__nightly-performance-overhead-multi_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_two_process_results_%name%.png
   - title: Received packets
     y_axis_label: Number
     master_csv_name: plot-0978124033685966101.csv
@@ -1486,11 +1486,11 @@ show_plots:
     num_builds: 10
     y_axis_exclude_zero: True
     data_series:
-    - data_file: ws/test_results/buildfarm_perf_tests/performance_test_two_process_results_*_Array1k.csv
+    - data_file: ws/test_results/buildfarm_perf_tests/performance_test_two_process_results_*.csv
       data_type: csv
       selection_flag: INCLUDE_BY_COLUMN
       selection_value: 4
-      url: /job/Eci__nightly-performance-overhead-multi_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_two_process_results_%name%_Array1k_histogram.png
+      url: /job/Eci__nightly-performance-overhead-multi_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_two_process_results_%name%_histogram.png
   - title: Sent packets
     y_axis_label: Number
     master_csv_name: plot-3217397197666225920.csv
@@ -1498,11 +1498,11 @@ show_plots:
     num_builds: 10
     y_axis_exclude_zero: True
     data_series:
-    - data_file: ws/test_results/buildfarm_perf_tests/performance_test_two_process_results_*_Array1k.csv
+    - data_file: ws/test_results/buildfarm_perf_tests/performance_test_two_process_results_*.csv
       data_type: csv
       selection_flag: INCLUDE_BY_COLUMN
       selection_value: 5
-      url: /job/Eci__nightly-performance-overhead-multi_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_two_process_results_%name%_Array1k_histogram.png
+      url: /job/Eci__nightly-performance-overhead-multi_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_two_process_results_%name%_histogram.png
   - title: Lost packets
     y_axis_label: Number
     master_csv_name: plot-4153422920036477968.csv
@@ -1510,11 +1510,11 @@ show_plots:
     num_builds: 10
     y_axis_exclude_zero: True
     data_series:
-    - data_file: ws/test_results/buildfarm_perf_tests/performance_test_two_process_results_*_Array1k.csv
+    - data_file: ws/test_results/buildfarm_perf_tests/performance_test_two_process_results_*.csv
       data_type: csv
       selection_flag: INCLUDE_BY_COLUMN
       selection_value: 6
-      url: /job/Eci__nightly-performance-overhead-multi_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_two_process_results_%name%_Array1k_histogram.png
+      url: /job/Eci__nightly-performance-overhead-multi_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_two_process_results_%name%_histogram.png
   - title: CPU usage (%)
     y_axis_label: Number
     master_csv_name: plot-5052659783928052056.csv
@@ -1524,11 +1524,11 @@ show_plots:
     y_axis_maximum: 100
     y_axis_exclude_zero: True
     data_series:
-    - data_file: ws/test_results/buildfarm_perf_tests/performance_test_two_process_results_*_Array1k.csv
+    - data_file: ws/test_results/buildfarm_perf_tests/performance_test_two_process_results_*.csv
       data_type: csv
       selection_flag: INCLUDE_BY_COLUMN
       selection_value: 8
-      url: /job/Eci__nightly-performance-overhead-multi_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_two_process_results_%name%_Array1k_cpu_usage.png
+      url: /job/Eci__nightly-performance-overhead-multi_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_two_process_results_%name%_cpu_usage.png
   Performance Two Processes Test Results (multisize packets):
   - title: Latency Average Round-Trip Time (Array1k)
     y_axis_label: Milliseconds
@@ -1537,7 +1537,7 @@ show_plots:
     num_builds: 10
     exclZero: False
     data_series:
-    - data_file: ws/test_results/buildfarm_perf_tests/performance_test_two_process_results_*_Array1k.csv
+    - data_file: ws/test_results/buildfarm_perf_tests/performance_test_two_process_results_*.csv
       data_type: csv
       selection_flag: INCLUDE_BY_COLUMN
       selection_value: 0
@@ -1633,7 +1633,7 @@ show_plots:
     num_builds: 10
     exclZero: False
     data_series:
-    - data_file: ws/test_results/buildfarm_perf_tests/performance_test_two_process_results_*_Array1k.csv
+    - data_file: ws/test_results/buildfarm_perf_tests/performance_test_two_process_results_*.csv
       data_type: csv
       selection_flag: INCLUDE_BY_COLUMN
       selection_value: 10
