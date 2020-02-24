@@ -1164,7 +1164,7 @@ show_plots:
     y_axis_maximum: 0.2
     y_axis_exclude_zero: False
     data_series:
-    - data_file: ws/test_results/buildfarm_perf_tests/performance_test_results_*.csv
+    - data_file: ws/test_results/buildfarm_perf_tests/performance_test_results_*_Array1k.csv
       data_type: csv
       selection_flag: INCLUDE_BY_COLUMN
       selection_value: 0
@@ -1178,7 +1178,7 @@ show_plots:
     y_axis_maximum: 1000
     y_axis_exclude_zero: False
     data_series:
-    - data_file: ws/test_results/buildfarm_perf_tests/performance_test_results_*.csv
+    - data_file: ws/test_results/buildfarm_perf_tests/performance_test_results_*_Array1k.csv
       data_type: csv
       selection_flag: INCLUDE_BY_COLUMN
       selection_value: 10
@@ -1190,7 +1190,7 @@ show_plots:
     num_builds: 10
     y_axis_exclude_zero: True
     data_series:
-    - data_file: ws/test_results/buildfarm_perf_tests/performance_test_results_*.csv
+    - data_file: ws/test_results/buildfarm_perf_tests/performance_test_results_*_Array1k.csv
       data_type: csv
       selection_flag: INCLUDE_BY_COLUMN
       selection_value: 3
@@ -1202,7 +1202,7 @@ show_plots:
     num_builds: 10
     y_axis_exclude_zero: True
     data_series:
-    - data_file: ws/test_results/buildfarm_perf_tests/performance_test_results_*.csv
+    - data_file: ws/test_results/buildfarm_perf_tests/performance_test_results_*_Array1k.csv
       data_type: csv
       selection_flag: INCLUDE_BY_COLUMN
       selection_value: 4
@@ -1214,7 +1214,7 @@ show_plots:
     num_builds: 10
     y_axis_exclude_zero: True
     data_series:
-    - data_file: ws/test_results/buildfarm_perf_tests/performance_test_results_*.csv
+    - data_file: ws/test_results/buildfarm_perf_tests/performance_test_results_*_Array1k.csv
       data_type: csv
       selection_flag: INCLUDE_BY_COLUMN
       selection_value: 5
@@ -1226,7 +1226,7 @@ show_plots:
     num_builds: 10
     y_axis_exclude_zero: True
     data_series:
-    - data_file: ws/test_results/buildfarm_perf_tests/performance_test_results_*.csv
+    - data_file: ws/test_results/buildfarm_perf_tests/performance_test_results_*_Array1k.csv
       data_type: csv
       selection_flag: INCLUDE_BY_COLUMN
       selection_value: 6
@@ -1240,7 +1240,7 @@ show_plots:
     y_axis_maximum: 100
     y_axis_exclude_zero: True
     data_series:
-    - data_file: ws/test_results/buildfarm_perf_tests/performance_test_results_*.csv
+    - data_file: ws/test_results/buildfarm_perf_tests/performance_test_results_*_Array1k.csv
       data_type: csv
       selection_flag: INCLUDE_BY_COLUMN
       selection_value: 8
@@ -1253,7 +1253,7 @@ show_plots:
     num_builds: 10
     exclZero: False
     data_series:
-    - data_file: ws/test_results/buildfarm_perf_tests/performance_test_results_*.csv
+    - data_file: ws/test_results/buildfarm_perf_tests/performance_test_results_*_Array1k.csv
       data_type: csv
       selection_flag: INCLUDE_BY_COLUMN
       selection_value: 0
@@ -1349,7 +1349,7 @@ show_plots:
     num_builds: 10
     exclZero: False
     data_series:
-    - data_file: ws/test_results/buildfarm_perf_tests/performance_test_results_*.csv
+    - data_file: ws/test_results/buildfarm_perf_tests/performance_test_results_*_Array1k.csv
       data_type: csv
       selection_flag: INCLUDE_BY_COLUMN
       selection_value: 10
@@ -1448,7 +1448,7 @@ show_plots:
     y_axis_maximum: 0.2
     y_axis_exclude_zero: False
     data_series:
-    - data_file: ws/test_results/buildfarm_perf_tests/performance_test_two_process_results_*.csv
+    - data_file: ws/test_results/buildfarm_perf_tests/performance_test_two_process_results_*_Array1k.csv
       data_type: csv
       selection_flag: INCLUDE_BY_COLUMN
       selection_value: 0
@@ -1462,7 +1462,7 @@ show_plots:
     y_axis_maximum: 1000
     y_axis_exclude_zero: False
     data_series:
-    - data_file: ws/test_results/buildfarm_perf_tests/performance_test_two_process_results_*.csv
+    - data_file: ws/test_results/buildfarm_perf_tests/performance_test_two_process_results_*_Array1k.csv
       data_type: csv
       selection_flag: INCLUDE_BY_COLUMN
       selection_value: 10
@@ -1474,7 +1474,7 @@ show_plots:
     num_builds: 10
     y_axis_exclude_zero: True
     data_series:
-    - data_file: ws/test_results/buildfarm_perf_tests/performance_test_two_process_results_*.csv
+    - data_file: ws/test_results/buildfarm_perf_tests/performance_test_two_process_results_*_Array1k.csv
       data_type: csv
       selection_flag: INCLUDE_BY_COLUMN
       selection_value: 3
@@ -1486,7 +1486,7 @@ show_plots:
     num_builds: 10
     y_axis_exclude_zero: True
     data_series:
-    - data_file: ws/test_results/buildfarm_perf_tests/performance_test_two_process_results_*.csv
+    - data_file: ws/test_results/buildfarm_perf_tests/performance_test_two_process_results_*_Array1k.csv
       data_type: csv
       selection_flag: INCLUDE_BY_COLUMN
       selection_value: 4
@@ -1498,7 +1498,7 @@ show_plots:
     num_builds: 10
     y_axis_exclude_zero: True
     data_series:
-    - data_file: ws/test_results/buildfarm_perf_tests/performance_test_two_process_results_*.csv
+    - data_file: ws/test_results/buildfarm_perf_tests/performance_test_two_process_results_*_Array1k.csv
       data_type: csv
       selection_flag: INCLUDE_BY_COLUMN
       selection_value: 5
@@ -1510,7 +1510,7 @@ show_plots:
     num_builds: 10
     y_axis_exclude_zero: True
     data_series:
-    - data_file: ws/test_results/buildfarm_perf_tests/performance_test_two_process_results_*.csv
+    - data_file: ws/test_results/buildfarm_perf_tests/performance_test_two_process_results_*_Array1k.csv
       data_type: csv
       selection_flag: INCLUDE_BY_COLUMN
       selection_value: 6
@@ -1524,7 +1524,7 @@ show_plots:
     y_axis_maximum: 100
     y_axis_exclude_zero: True
     data_series:
-    - data_file: ws/test_results/buildfarm_perf_tests/performance_test_two_process_results_*.csv
+    - data_file: ws/test_results/buildfarm_perf_tests/performance_test_two_process_results_*_Array1k.csv
       data_type: csv
       selection_flag: INCLUDE_BY_COLUMN
       selection_value: 8
@@ -1537,7 +1537,7 @@ show_plots:
     num_builds: 10
     exclZero: False
     data_series:
-    - data_file: ws/test_results/buildfarm_perf_tests/performance_test_two_process_results_*.csv
+    - data_file: ws/test_results/buildfarm_perf_tests/performance_test_two_process_results_*_Array1k.csv
       data_type: csv
       selection_flag: INCLUDE_BY_COLUMN
       selection_value: 0
@@ -1633,7 +1633,7 @@ show_plots:
     num_builds: 10
     exclZero: False
     data_series:
-    - data_file: ws/test_results/buildfarm_perf_tests/performance_test_two_process_results_*.csv
+    - data_file: ws/test_results/buildfarm_perf_tests/performance_test_two_process_results_*_Array1k.csv
       data_type: csv
       selection_flag: INCLUDE_BY_COLUMN
       selection_value: 10
