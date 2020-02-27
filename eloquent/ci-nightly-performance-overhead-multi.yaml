@@ -1155,7 +1155,7 @@ show_plots:
       url: /job/Eci__nightly-performance-overhead-multi_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/overhead_node_test_results_%name%_resident_anonymous_memory.png
   Performance One Process Test Results (Array1k):
   - title: Average Round-Trip Time
-    description: The figure shown above shows the average round-trip time in milisecond for different DDS vendors using a 1K array message with a publish rate of 1000. All DDS vendors are configured in asyncronous mode except cycloneDDS which is configured in syncronous mode.
+    description: The figure shown above shows the average round-trip time in milisecond for different DDS vendors using a 1K array message with a publish rate of 1000. All DDS vendors are configured in asyncronous mode except cycloneDDS which is configured in syncronous mode. </br><ul><li><b>QoS<b/>: Best effort</li><li><b>Rate</b>: 1000</li><li><b>Number of publisher</b>: 1</li><li><b>Number of subscribers</b>: 1</li><ul>
     y_axis_label: Milliseconds
     master_csv_name: plot-0265876994475799872.csv
     style: line
