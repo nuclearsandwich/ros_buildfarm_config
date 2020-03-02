@@ -1172,7 +1172,7 @@ show_plots:
   - title: Throughtput
     description: "The figure shown above shows the throughput in Mbits/s for different DDS vendors using a 1K array message. All DDS vendors are configured in asyncronous mode except cycloneDDS which is configured in syncronous mode.<br></br><ul><li><b>QoS</b> Best effort</li><li><b>Rate</b> 1000</li><li><b>Runtime</b> 30 seconds</li><li><b>N process</b> 1</li><li><b>Array Size</b> 1K</li></ul>"
     y_axis_label: Mbits/s (mean)
-    master_csv_name: plot-7374443465729306087.csv
+    master_csv_name: plot-7374443465729306086.csv
     style: line
     num_builds: 10
     y_axis_minimum: 0
@@ -1185,6 +1185,7 @@ show_plots:
       selection_value: 10
       url: /job/Eci__nightly-performance-overhead-multi_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_results_%name%_throughtput.png
   - title: Max Resident Set Size
+    description: "The figure shown above shows the max resident size Megabytes for different DDS vendors using a 1K array message. All DDS vendors are configured in asyncronous mode except cycloneDDS which is configured in syncronous mode.<br></br><ul><li><b>QoS</b> Best effort</li><li><b>Rate</b> 1000</li><li><b>Runtime</b> 30 seconds</li><li><b>N process</b> 1</li><li><b>Array Size</b> 1K</li></ul>"
     y_axis_label: Megabytes
     master_csv_name: plot-1436376343511047813.csv
     style: line
@@ -1197,6 +1198,7 @@ show_plots:
       selection_value: 3
       url: /job/Eci__nightly-performance-overhead-multi_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_results_%name%.png
   - title: Received packets
+    description: "The figure shown above shows the received packets for different DDS vendors using a 1K array message. All DDS vendors are configured in asyncronous mode except cycloneDDS which is configured in syncronous mode.<br></br><ul><li><b>QoS</b> Best effort</li><li><b>Rate</b> 1000</li><li><b>Runtime</b> 30 seconds</li><li><b>N process</b> 1</li><li><b>Array Size</b> 1K</li></ul>"
     y_axis_label: Number
     master_csv_name: plot-2657929605417204644.csv
     style: line
@@ -1209,6 +1211,7 @@ show_plots:
       selection_value: 4
       url: /job/Eci__nightly-performance-overhead-multi_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_results_%name%_histogram.png
   - title: Sent packets
+    description: "The figure shown above shows the sent packets for different DDS vendors using a 1K array message. All DDS vendors are configured in asyncronous mode except cycloneDDS which is configured in syncronous mode.<br></br><ul><li><b>QoS</b> Best effort</li><li><b>Rate</b> 1000</li><li><b>Runtime</b> 30 seconds</li><li><b>N process</b> 1</li><li><b>Array Size</b> 1K</li></ul>"
     y_axis_label: Number
     master_csv_name: plot-5146858432073608852.csv
     style: line
@@ -1221,6 +1224,7 @@ show_plots:
       selection_value: 5
       url: /job/Eci__nightly-performance-overhead-multi_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_results_%name%_histogram.png
   - title: Lost packets
+    description: "The figure shown above shows the lost packets for different DDS vendors using a 1K array message. All DDS vendors are configured in asyncronous mode except cycloneDDS which is configured in syncronous mode.<br></br><ul><li><b>QoS</b> Best effort</li><li><b>Rate</b> 1000</li><li><b>Runtime</b> 30 seconds</li><li><b>N process</b> 1</li><li><b>Array Size</b> 1K</li></ul>"
     y_axis_label: Number
     master_csv_name: plot-2204596489946555197.csv
     style: line
@@ -1233,6 +1237,7 @@ show_plots:
       selection_value: 6
       url: /job/Eci__nightly-performance-overhead-multi_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_results_%name%_histogram.png
   - title: CPU usage (%)
+    description: "The figure shown above shows the cpu usage in % for different DDS vendors using a 1K array message. All DDS vendors are configured in asyncronous mode except cycloneDDS which is configured in syncronous mode.<br></br><ul><li><b>QoS</b> Best effort</li><li><b>Rate</b> 1000</li><li><b>Runtime</b> 30 seconds</li><li><b>N process</b> 1</li><li><b>Array Size</b> 1K</li></ul>"
     y_axis_label: Number
     master_csv_name: plot-4712887571310701790.csv
     style: line
