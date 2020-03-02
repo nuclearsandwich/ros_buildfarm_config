@@ -1155,9 +1155,9 @@ show_plots:
       url: /job/Eci__nightly-performance-overhead-multi_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/overhead_node_test_results_%name%_resident_anonymous_memory.png
   Performance One Process Test Results (Array1k):
   - title: Average Round-Trip Time
-    description: "The figure shown above shows the average round-trip time in milisecond for different DDS vendors using a 1K array message. All DDS vendors are configured in asyncronous mode except cycloneDDS which is configured in syncronous mode.<br></br><ul><li><b>QoS</b> Best effort</li></ul>"
+    description: "The figure shown above shows the average round-trip time in milisecond for different DDS vendors using a 1K array message. All DDS vendors are configured in asyncronous mode except cycloneDDS which is configured in syncronous mode.<br></br><ul><li><b>QoS</b> Best effort</li><li><b>Rate</b> 1000</li><li><b>Runtime</b> 30 seconds</li><li><b>N process</b> 1</li><li><b>Array Size</b> 1K</li></ul>"
     y_axis_label: Milliseconds
-    master_csv_name: plot-0265876994475799872.csv
+    master_csv_name: plot-0265876994475799871.csv
     style: line
     num_builds: 10
     y_axis_minimum: 0
@@ -1170,7 +1170,7 @@ show_plots:
       selection_value: 0
       url: /job/Eci__nightly-performance-overhead-multi_ubuntu_bionic_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/performance_test_results_%name%.png
   - title: Throughtput
-    description: "The figure shown above shows the throughtput in Mbits/s for different DDS vendors using a 1K array message. All DDS vendors are configured in asyncronous mode except cycloneDDS which is configured in syncronous mode."
+    description: "The figure shown above shows the throughput in Mbits/s for different DDS vendors using a 1K array message. All DDS vendors are configured in asyncronous mode except cycloneDDS which is configured in syncronous mode.<br></br><ul><li><b>QoS</b> Best effort</li><li><b>Rate</b> 1000</li><li><b>Runtime</b> 30 seconds</li><li><b>N process</b> 1</li><li><b>Array Size</b> 1K</li></ul>"
     y_axis_label: Mbits/s (mean)
     master_csv_name: plot-7374443465729306087.csv
     style: line
