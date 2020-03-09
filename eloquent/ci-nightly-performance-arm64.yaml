@@ -22,7 +22,7 @@ install_packages:
 - ros-melodic-rosmsg
 - ros-melodic-rospy-tutorials
 - ros-melodic-tf2-msgs
-jenkins_job_label: buildagent_arm64
+jenkins_job_label: buildagent
 jenkins_job_priority: 50
 jenkins_job_timeout: 120
 jenkins_job_upstream_triggers:
