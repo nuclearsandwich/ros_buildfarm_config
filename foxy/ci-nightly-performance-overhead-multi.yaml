@@ -26,7 +26,7 @@ install_packages:
 # - ros-noetic-tf2-msgs
 jenkins_job_label: buildagent
 jenkins_job_priority: 50
-jenkins_job_timeout: 60
+jenkins_job_timeout: 300
 jenkins_job_upstream_triggers:
 - nightly-extra-rmw-release
 repos_files:
@@ -108,6 +108,7 @@ underlay_from_ci_jobs:
 show_images:
   Performance Test Results:
   - ws/test_results/buildfarm_perf_tests/performance_test_results_*.png
+  - ws/test_results/buildfarm_perf_tests/performance_test_two_process_results_*.png
   - ws/test_results/buildfarm_perf_tests/overhead_test_results_*.png
   - ws/test_results/buildfarm_perf_tests/overhead_node_test_results_*.png
 show_plots:
