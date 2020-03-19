@@ -152,19 +152,6 @@ show_plots:
       selection_flag: INCLUDE_BY_COLUMN
       selection_value: 14
       url: /job/Fci__nightly-performance-overhead-multi_ubuntu_focal_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/overhead_test_results_%name%_publisher_latency.png
-  - title: Simple Pub rmw_opensplice_cpp Average Round-Trip Time
-    description: "The figure shown above shows the average round-trip time in milisecond. The publisher is set to <b>rmw_fastrtps_cpp </b> but the subscriber will vary between the avaiables. All DDS vendors are configured in asynchronous mode except cycloneDDS which is configured in syncronous mode. <br></br><ul><li><b>QoS</b> Best effort</li><li><b>Rate</b> 5</li><li><b>Runtime</b> 30 seconds</li><li><b>N process</b> 2</li><li><b>Message size</b> 1K</li></ul>"
-    y_axis_label: Milliseconds
-    master_csv_name: plot-8773295053086794708.csv
-    style: line
-    num_builds: 10
-    exclZero: False
-    data_series:
-    - data_file: ws/test_results/buildfarm_perf_tests/overhead_test_results_rmw_opensplice_cpp_*_pub.csv
-      data_type: csv
-      selection_flag: INCLUDE_BY_COLUMN
-      selection_value: 14
-      url: /job/Fci__nightly-performance-overhead-multi_ubuntu_focal_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/overhead_test_results_%name%_publisher_latency.png
   - title: Simple Pub rmw_fastrtps_dynamic_cpp Average Round-Trip Time
     description: "The figure shown above shows the average round-trip time in milisecond. The publisher is set to <b>rmw_fastrtps_cpp </b> but the subscriber will vary between the avaiables. All DDS vendors are configured in asynchronous mode except cycloneDDS which is configured in syncronous mode. <br></br><ul><li><b>QoS</b> Best effort</li><li><b>Rate</b> 5</li><li><b>Runtime</b> 30 seconds</li><li><b>N process</b> 2</li><li><b>Message size</b> 1K</li></ul>"
     y_axis_label: Milliseconds
@@ -233,21 +220,6 @@ show_plots:
     y_axis_maximum: 10
     data_series:
     - data_file: ws/test_results/buildfarm_perf_tests/overhead_test_results_rmw_connext_cpp_*_pub.csv
-      data_type: csv
-      selection_flag: INCLUDE_BY_COLUMN
-      selection_value: 16
-      url: /job/Fci__nightly-performance-overhead-multi_ubuntu_focal_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/overhead_test_results_%name%_publisher_histogram.png
-  - title: Simple Pub rmw_opensplice_cpp Received packets per second
-    description: "The figure shown above shows the received packets per second. The publisher is set to <b>rmw_opensplice_cpp</b> but the subscriber will vary between the avaiables. All DDS vendors are configured in asynchronous mode except cycloneDDS which is configured in syncronous mode. <br></br><ul><li><b>QoS</b> Best effort</li><li><b>Rate</b> 5</li><li><b>Runtime</b> 30 seconds</li><li><b>N process</b> 2</li><li><b>Message size</b> 1K</li></ul>"
-    y_axis_label: Packets per second
-    master_csv_name: plot-8604551057444868171.csv
-    style: line
-    num_builds: 10
-    y_axis_exclude_zero: True
-    y_axis_minimum: 0
-    y_axis_maximum: 10
-    data_series:
-    - data_file: ws/test_results/buildfarm_perf_tests/overhead_test_results_rmw_opensplice_cpp_*_pub.csv
       data_type: csv
       selection_flag: INCLUDE_BY_COLUMN
       selection_value: 16
@@ -328,21 +300,6 @@ show_plots:
       selection_flag: INCLUDE_BY_COLUMN
       selection_value: 17
       url: /job/Fci__nightly-performance-overhead-multi_ubuntu_focal_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/overhead_test_results_%name%_publisher_histogram.png
-  - title: Simple Pub rmw_opensplice_cpp Sent packets per second
-    description: "The figure shown above shows the sent packets per second. The publisher is set to <b>rmw_opensplice_cpp</b> but the subscriber will vary between the avaiables. All DDS vendors are configured in asynchronous mode except cycloneDDS which is configured in syncronous mode. <br></br><ul><li><b>QoS</b> Best effort</li><li><b>Rate</b> 5</li><li><b>Runtime</b> 30 seconds</li><li><b>N process</b> 2</li><li><b>Message size</b> 1K</li></ul>"
-    y_axis_label: Packets per second
-    master_csv_name: plot-0105672470458631208.csv
-    style: line
-    num_builds: 10
-    y_axis_exclude_zero: True
-    y_axis_minimum: 0
-    y_axis_maximum: 10
-    data_series:
-    - data_file: ws/test_results/buildfarm_perf_tests/overhead_test_results_rmw_opensplice_cpp_*_pub.csv
-      data_type: csv
-      selection_flag: INCLUDE_BY_COLUMN
-      selection_value: 17
-      url: /job/Fci__nightly-performance-overhead-multi_ubuntu_focal_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/overhead_test_results_%name%_publisher_histogram.png
   - title: Simple Pub rmw_fastrtps_dynamic_cpp Sent packets per second
     description: "The figure shown above shows the sent packets per second. The publisher is set to <b>rmw_fastrtps_dynamic_cpp</b> but the subscriber will vary between the avaiables. All DDS vendors are configured in asynchronous mode except cycloneDDS which is configured in syncronous mode. <br></br><ul><li><b>QoS</b> Best effort</li><li><b>Rate</b> 5</li><li><b>Runtime</b> 30 seconds</li><li><b>N process</b> 2</li><li><b>Message size</b> 1K</li></ul>"
     y_axis_label: Packets per second
@@ -412,20 +369,6 @@ show_plots:
     y_axis_maximum: 10
     data_series:
     - data_file: ws/test_results/buildfarm_perf_tests/overhead_test_results_rmw_connext_cpp_*_pub.csv
-      data_type: csv
-      selection_flag: INCLUDE_BY_COLUMN
-      selection_value: 18
-      url: /job/Fci__nightly-performance-overhead-multi_ubuntu_focal_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/overhead_test_results_%name%_publisher_histogram.png
-  - title: Simple Pub rmw_opensplice_cpp Lost packets
-    description: "The figure shown above shows the lost packets. The publisher is set to <b>rmw_opensplice_cpp</b> but the subscriber will vary between the avaiables. All DDS vendors are configured in asynchronous mode except cycloneDDS which is configured in syncronous mode. <br></br><ul><li><b>QoS</b> Best effort</li><li><b>Rate</b> 5</li><li><b>Runtime</b> 30 seconds</li><li><b>N process</b> 2</li><li><b>Message size</b> 1K</li></ul>"
-    y_axis_label: Total Count
-    master_csv_name: plot-5329710055481088087.csv
-    style: line
-    num_builds: 10
-    y_axis_minimum: 0
-    y_axis_maximum: 10
-    data_series:
-    - data_file: ws/test_results/buildfarm_perf_tests/overhead_test_results_rmw_opensplice_cpp_*_pub.csv
       data_type: csv
       selection_flag: INCLUDE_BY_COLUMN
       selection_value: 18
@@ -551,38 +494,6 @@ show_plots:
     y_axis_maximum: 1000
     data_series:
     - data_file: ws/test_results/buildfarm_perf_tests/overhead_test_results_rmw_connext_cpp_*_sub.csv
-      data_type: csv
-      selection_flag: INCLUDE_BY_COLUMN
-      selection_value: 2
-      url: /job/Fci__nightly-performance-overhead-multi_ubuntu_focal_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/overhead_test_results_%name%_subscriber_virtual_memory.png
-  - title: Simple Pub rmw_opensplice_cpp Virtual Memory
-    description: "The figure shown above shows the virtual memory in Mb used by the publisher. The publisher is set to <b>rmw_opensplice_cpp</b> but the subscriber will vary between the avaiables. All DDS vendors are configured in asynchronous mode except cycloneDDS which is configured in syncronous mode. <br></br><ul><li><b>QoS</b> Best effort</li><li><b>Rate</b> 5</li><li><b>Runtime</b> 30 seconds</li><li><b>N process</b> 2</li><li><b>Message size</b> 1K</li></ul>"
-    y_axis_label: Mb
-    num_builds: 50
-    master_csv_name: plot-1032034148335963593.csv
-    style: line
-    num_builds: 10
-    y_axis_exclude_zero: True
-    y_axis_minimum: 0
-    y_axis_maximum: 1000
-    data_series:
-    - data_file: ws/test_results/buildfarm_perf_tests/overhead_test_results_rmw_opensplice_cpp_*_pub.csv
-      data_type: csv
-      selection_flag: INCLUDE_BY_COLUMN
-      selection_value: 2
-      url: /job/Fci__nightly-performance-overhead-multi_ubuntu_focal_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/overhead_test_results_%name%_publisher_virtual_memory.png
-  - title: Simple Sub rmw_opensplice_cpp Virtual Memory
-    description: "The figure shown above shows the virtual memory in Mb used by the subscriber. The publisher is set to <b>rmw_opensplice_cpp</b> but the subscriber will vary between the avaiables. All DDS vendors are configured in asynchronous mode except cycloneDDS which is configured in syncronous mode. <br></br><ul><li><b>QoS</b> Best effort</li><li><b>Rate</b> 5</li><li><b>Runtime</b> 30 seconds</li><li><b>N process</b> 2</li><li><b>Message size</b> 1K</li></ul>"
-    y_axis_label: Mb
-    num_builds: 50
-    master_csv_name: plot-10320341483359635931.csv
-    style: line
-    num_builds: 10
-    y_axis_exclude_zero: True
-    y_axis_minimum: 0
-    y_axis_maximum: 1000
-    data_series:
-    - data_file: ws/test_results/buildfarm_perf_tests/overhead_test_results_rmw_opensplice_cpp_*_sub.csv
       data_type: csv
       selection_flag: INCLUDE_BY_COLUMN
       selection_value: 2
@@ -730,32 +641,6 @@ show_plots:
       selection_flag: INCLUDE_BY_COLUMN
       selection_value: 11
       url: /job/Fci__nightly-performance-overhead-multi_ubuntu_focal_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/overhead_test_results_%name%_subscriber_resident_anonymous_memory.png
-  - title: Simple Pub rmw_opensplice_cpp Resident Anonymous Memory
-    description: "The figure shown above shows the resident anonymous memory in Mb used by the publisher. The publisher is set to <b>rmw_opensplice_cpp</b> but the subscriber will vary between the avaiables. All DDS vendors are configured in asynchronous mode except cycloneDDS which is configured in syncronous mode. <br></br><ul><li><b>QoS</b> Best effort</li><li><b>Rate</b> 5</li><li><b>Runtime</b> 30 seconds</li><li><b>N process</b> 2</li><li><b>Message size</b> 1K</li></ul>"
-    y_axis_label: Mb
-    master_csv_name: plot-4277862979576738718.csv
-    style: line
-    num_builds: 10
-    y_axis_exclude_zero: True
-    data_series:
-    - data_file: ws/test_results/buildfarm_perf_tests/overhead_test_results_rmw_opensplice_cpp_*_pub.csv
-      data_type: csv
-      selection_flag: INCLUDE_BY_COLUMN
-      selection_value: 11
-      url: /job/Fci__nightly-performance-overhead-multi_ubuntu_focal_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/overhead_test_results_%name%_publisher_resident_anonymous_memory.png
-  - title: Simple Sub rmw_opensplice_cpp Resident Anonymous Memory
-    description: "The figure shown above shows the resident anonymous memory in Mb used by the subscriber. The publisher is set to <b>rmw_opensplice_cpp</b> but the subscriber will vary between the avaiables. All DDS vendors are configured in asynchronous mode except cycloneDDS which is configured in syncronous mode. <br></br><ul><li><b>QoS</b> Best effort</li><li><b>Rate</b> 5</li><li><b>Runtime</b> 30 seconds</li><li><b>N process</b> 2</li><li><b>Message size</b> 1K</li></ul>"
-    y_axis_label: Mb
-    master_csv_name: plot-42778629795767387181.csv
-    style: line
-    num_builds: 10
-    y_axis_exclude_zero: True
-    data_series:
-    - data_file: ws/test_results/buildfarm_perf_tests/overhead_test_results_rmw_opensplice_cpp_*_sub.csv
-      data_type: csv
-      selection_flag: INCLUDE_BY_COLUMN
-      selection_value: 11
-      url: /job/Fci__nightly-performance-overhead-multi_ubuntu_focal_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/overhead_test_results_%name%_subscriber_resident_anonymous_memory.png
   - title: Simple Pub rmw_fastrtps_dynamic_cpp Resident Anonymous Memory
     description: "The figure shown above shows the resident anonymous memory in Mb used by the publisher. The publisher is set to <b>rmw_fastrtps_dynamic_cpp</b> but the subscriber will vary between the avaiables. All DDS vendors are configured in asynchronous mode except cycloneDDS which is configured in syncronous mode. <br></br><ul><li><b>QoS</b> Best effort</li><li><b>Rate</b> 5</li><li><b>Runtime</b> 30 seconds</li><li><b>N process</b> 2</li><li><b>Message size</b> 1K</li></ul>"
     y_axis_label: Mb
@@ -895,36 +780,6 @@ show_plots:
     y_axis_maximum: 100
     data_series:
     - data_file: ws/test_results/buildfarm_perf_tests/overhead_test_results_rmw_connext_cpp_*_sub.csv
-      data_type: csv
-      selection_flag: INCLUDE_BY_COLUMN
-      selection_value: 8
-      url: /job/Fci__nightly-performance-overhead-multi_ubuntu_focal_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/overhead_test_results_%name%_subscriber_physical_memory.png
-  - title: Simple Pub rmw_opensplice_cpp Physical Memory
-    description: "The figure shown above shows the physical memory in Mb used by the publisher. The publisher is set to <b>rmw_opensplice_cpp </b> but the subscriber will vary between the avaiables. All DDS vendors are configured in asynchronous mode except cycloneDDS which is configured in syncronous mode. <br></br><ul><li><b>QoS</b> Best effort</li><li><b>Rate</b> 5</li><li><b>Runtime</b> 30 seconds</li><li><b>N process</b> 2</li><li><b>Message size</b> 1K</li></ul>"
-    y_axis_label: Mb
-    master_csv_name: plot-4490625425524181169.csv
-    style: line
-    num_builds: 10
-    y_axis_exclude_zero: True
-    y_axis_minimum: 0
-    y_axis_maximum: 100
-    data_series:
-    - data_file: ws/test_results/buildfarm_perf_tests/overhead_test_results_rmw_opensplice_cpp_*_pub.csv
-      data_type: csv
-      selection_flag: INCLUDE_BY_COLUMN
-      selection_value: 8
-      url: /job/Fci__nightly-performance-overhead-multi_ubuntu_focal_amd64/%build%/artifact/ws/test_results/buildfarm_perf_tests/overhead_test_results_%name%_publisher_physical_memory.png
-  - title: Simple Sub rmw_opensplice_cpp Physical Memory
-    description: "The figure shown above shows the physical memory in Mb used by the subscriber. The publisher is set to <b>rmw_opensplice_cpp </b> but the subscriber will vary between the avaiables. All DDS vendors are configured in asynchronous mode except cycloneDDS which is configured in syncronous mode. <br></br><ul><li><b>QoS</b> Best effort</li><li><b>Rate</b> 5</li><li><b>Runtime</b> 30 seconds</li><li><b>N process</b> 2</li><li><b>Message size</b> 1K</li></ul>"
-    y_axis_label: Mb
-    master_csv_name: plot-44906254255241811691.csv
-    style: line
-    num_builds: 10
-    y_axis_exclude_zero: True
-    y_axis_minimum: 0
-    y_axis_maximum: 100
-    data_series:
-    - data_file: ws/test_results/buildfarm_perf_tests/overhead_test_results_rmw_opensplice_cpp_*_sub.csv
       data_type: csv
       selection_flag: INCLUDE_BY_COLUMN
       selection_value: 8
