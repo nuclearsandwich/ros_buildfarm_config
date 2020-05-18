@@ -10,7 +10,7 @@ distributions:
       default: foxy/release-build.yaml
     source_builds:
       default: foxy/source-build.yaml
-jenkins_url: http://build.ros2.org
+jenkins_url: http://54.165.240.53
 notification_emails: []
 prerequisites:
   debian_repositories:
