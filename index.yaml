@@ -2,83 +2,19 @@
 # ROS buildfarm index file
 ---
 distributions:
-  dashing:
-    ci_builds:
-      nightly-connext: dashing/ci-nightly-connext.yaml
-      nightly-cyclonedds: dashing/ci-nightly-cyclonedds.yaml
-      nightly-debug: dashing/ci-nightly-debug.yaml
-      nightly-extra-rmw-release: dashing/ci-nightly-extra-rmw-release.yaml
-      nightly-fastrtps: dashing/ci-nightly-fastrtps.yaml
-      nightly-fastrtps-dynamic: dashing/ci-nightly-fastrtps-dynamic.yaml
-      nightly-opensplice: dashing/ci-nightly-opensplice.yaml
-      nightly-performance: dashing/ci-nightly-performance.yaml
-      nightly-release: dashing/ci-nightly-release.yaml
-      overlay: dashing/ci-overlay.yaml
-    doc_builds: {}
-    notification_emails:
-      - steven+build.ros2.org@openrobotics.org
-      - ros2-buildfarm-dashing@googlegroups.com
-    release_builds:
-      default: dashing/release-build.yaml
-      ubv8: dashing/release-bionic-arm64-build.yaml
-      ubhf: dashing/release-bionic-armhf-build.yaml
-    source_builds:
-      default: dashing/source-build.yaml
-  eloquent:
-    ci_builds:
-      nightly-connext: eloquent/ci-nightly-connext.yaml
-      nightly-cyclonedds: eloquent/ci-nightly-cyclonedds.yaml
-      nightly-debug: eloquent/ci-nightly-debug.yaml
-      nightly-extra-rmw-release: eloquent/ci-nightly-extra-rmw-release.yaml
-      nightly-fastrtps: eloquent/ci-nightly-fastrtps.yaml
-      nightly-fastrtps-dynamic: eloquent/ci-nightly-fastrtps-dynamic.yaml
-      nightly-opensplice: eloquent/ci-nightly-opensplice.yaml
-      nightly-performance: eloquent/ci-nightly-performance.yaml
-      nightly-release: eloquent/ci-nightly-release.yaml
-      overlay: eloquent/ci-overlay.yaml
-    doc_builds: {}
-    notification_emails:
-      - michael+build.ros2.org@openrobotics.org
-      - ros2-buildfarm-eloquent@googlegroups.com
-    release_builds:
-      default: eloquent/release-build.yaml
-      ubhf: eloquent/release-bionic-armhf-build.yaml
-      ubv8: eloquent/release-bionic-arm64-build.yaml
-    source_builds:
-      default: eloquent/source-build.yaml
   foxy:
-    ci_builds:
-      nightly-connext: foxy/ci-nightly-connext.yaml
-      nightly-cross-vendor-connext-cyclonedds: foxy/ci-nightly-cross-vendor-connext-cyclonedds.yaml
-      nightly-cross-vendor-connext-fastrtps: foxy/ci-nightly-cross-vendor-connext-fastrtps.yaml
-      nightly-cross-vendor-connext-fastrtps-dynamic: foxy/ci-nightly-cross-vendor-connext-fastrtps-dynamic.yaml
-      nightly-cross-vendor-cyclonedds-fastrtps: foxy/ci-nightly-cross-vendor-cyclonedds-fastrtps.yaml
-      nightly-cross-vendor-cyclonedds-fastrtps-dynamic: foxy/ci-nightly-cross-vendor-cyclonedds-fastrtps-dynamic.yaml
-      nightly-cross-vendor-fastrtps-fastrtps-dynamic: foxy/ci-nightly-cross-vendor-fastrtps-fastrtps-dynamic.yaml
-      nightly-cyclonedds: foxy/ci-nightly-cyclonedds.yaml
-      nightly-debug: foxy/ci-nightly-debug.yaml
-      nightly-extra-rmw-release: foxy/ci-nightly-extra-rmw-release.yaml
-      nightly-fastrtps: foxy/ci-nightly-fastrtps.yaml
-      nightly-fastrtps-dynamic: foxy/ci-nightly-fastrtps-dynamic.yaml
-      nightly-performance: foxy/ci-nightly-performance.yaml
-      nightly-release: foxy/ci-nightly-release.yaml
-      overlay: foxy/ci-overlay.yaml
+    ci_builds: {}
     doc_builds: {}
-    notification_emails:
-      - jacob+build.ros2.org@openrobotics.org
-      - ros2-buildfarm-foxy@googlegroups.com
+    notification_emails: []
     release_builds:
       default: foxy/release-build.yaml
-      ubhf: foxy/release-focal-armhf-build.yaml
-      ubv8: foxy/release-focal-arm64-build.yaml
     source_builds:
       default: foxy/source-build.yaml
 jenkins_url: http://build.ros2.org
-notification_emails:
-  - steven+build.ros2.org@openrobotics.org
+notification_emails: []
 prerequisites:
   debian_repositories:
-  - http://repo.ros2.org/ubuntu/building
+  - http://3.95.173.15/ubuntu/building
   - http://repositories.ros.org/ubuntu/main
   debian_repository_keys:
   - |
@@ -146,8 +82,8 @@ prerequisites:
 rosdistro_index_url: https://raw.githubusercontent.com/ros/rosdistro/master/index-v4.yaml
 status_page_repositories:
   default:
-    - http://repo.ros2.org/ubuntu/building
-    - http://repo.ros2.org/ubuntu/testing
-    - http://repo.ros2.org/ubuntu/main
+    - http://3.95.173.15/ubuntu/building
+    - http://3.95.173.15/ubuntu/testing
+    - http://3.95.173.15/ubuntu/main
 type: buildfarm
 version: 1
