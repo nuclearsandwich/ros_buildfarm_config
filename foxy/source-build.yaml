@@ -49,7 +49,7 @@ repositories:
     =E8ot
     -----END PGP PUBLIC KEY BLOCK-----
   urls:
-  - http://3.95.173.15/ubuntu/testing
+  - http://3.84.124.181/ubuntu/testing
 repository_blacklist:
 - ros_workspace
 targets:

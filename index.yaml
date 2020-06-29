@@ -18,11 +18,11 @@ distributions:
       default: testing/release-build.yaml
     source_builds:
       default: testing/source-build.yaml
-jenkins_url: http://54.165.240.53
+jenkins_url: http://3.88.192.50
 notification_emails: []
 prerequisites:
   debian_repositories:
-  - http://3.95.173.15/ubuntu/building
+  - http://3.84.124.181/ubuntu/building
   debian_repository_keys:
   - |
     -----BEGIN PGP PUBLIC KEY BLOCK-----
@@ -58,8 +58,8 @@ prerequisites:
 rosdistro_index_url: https://raw.githubusercontent.com/nuclearsandwich-ros/rosdistro/migration-testing/index-v4.yaml
 status_page_repositories:
   default:
-    - http://3.95.173.15/ubuntu/building
-    - http://3.95.173.15/ubuntu/testing
-    - http://3.95.173.15/ubuntu/main
+    - http://3.84.124.181/ubuntu/building
+    - http://3.84.124.181/ubuntu/testing
+    - http://3.84.124.181/ubuntu/main
 type: buildfarm
 version: 1
